@@ -1,0 +1,43 @@
+17:06:30 **** Incremental Build of configuration Debug for project gomoku ****
+make all 
+'Building file: ../src/gomoku_game.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gomoku_game.o" -IG:/VivadoProject/gomoku/workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/sw/mb_usb_hdmi_top/standalone_microblaze_0/bspinclude/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/gomoku_game.d" -MT"src/gomoku_game.o" -o "src/gomoku_game.o" "../src/gomoku_game.c"
+In file included from ../src/gomoku_game.h:7,
+                 from ../src/gomoku_game.c:1:
+G:/VivadoProject/gomoku/workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/sw/mb_usb_hdmi_top/standalone_microblaze_0/bspinclude/include/xparameters.h:627:50: warning: initialization of 'volatile struct TEXT_HDMI_STRUCT *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  627 | #define XPAR_HDMI_TEXT_CONTROLLER_0_AXI_BASEADDR 0x44A10000
+      |                                                  ^~~~~~~~~~
+../src/gomoku_game.h:37:54: note: in expansion of macro 'XPAR_HDMI_TEXT_CONTROLLER_0_AXI_BASEADDR'
+   37 | static volatile struct TEXT_HDMI_STRUCT* hdmi_ctrl = XPAR_HDMI_TEXT_CONTROLLER_0_AXI_BASEADDR;
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/gomoku_game.c: In function 'checkWin2':
+../src/gomoku_game.c:300:13: warning: variable 'winningCoords' set but not used [-Wunused-but-set-variable]
+  300 |         int winningCoords[5][2];
+      |             ^~~~~~~~~~~~~
+../src/gomoku_game.c:293:24: warning: unused variable 'winCol' [-Wunused-variable]
+  293 |     int count, winRow, winCol;
+      |                        ^~~~~~
+../src/gomoku_game.c:293:16: warning: unused variable 'winRow' [-Wunused-variable]
+  293 |     int count, winRow, winCol;
+      |                ^~~~~~
+../src/gomoku_game.c: In function 'ai_move':
+../src/gomoku_game.c:413:9: warning: unused variable 'equal_flag' [-Wunused-variable]
+  413 |     int equal_flag = 1;
+      |         ^~~~~~~~~~
+'Finished building: ../src/gomoku_game.c'
+' '
+'Building target: gomoku.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LG:/VivadoProject/gomoku/workspace/mb_usb_hdmi_top/export/mb_usb_hdmi_top/sw/mb_usb_hdmi_top/standalone_microblaze_0/bsplib/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "gomoku.elf"  ./src/lw_usb/HID.o ./src/lw_usb/MAX3421E.o ./src/lw_usb/transfer.o  ./src/gomoku_game.o ./src/lw_usb_main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: gomoku.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size gomoku.elf  |tee "gomoku.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  41520	    588	   5724	  47832	   bad8	gomoku.elf
+'Finished building: gomoku.elf.size'
+' '
+
+17:06:31 Build Finished (took 1s.150ms)
+

@@ -1,0 +1,598 @@
+
+*** Running vivado
+    with args -log mb_usb_hdmi_text_controller_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source mb_usb_hdmi_text_controller_0_0.tcl
+
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source mb_usb_hdmi_text_controller_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Constant/Desktop/RD_hdmi_ip2020/hdmi_tx_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'g:/VivadoProject/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/Xilinx/Vivado/2022.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mb_usb_hdmi_text_controller_0_0
+Command: synth_design -top mb_usb_hdmi_text_controller_0_0 -part xc7s50csga324-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7s50'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7s50'
+INFO: [Device 21-403] Loading part xc7s50csga324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 25968
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [G:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+WARNING: [Synth 8-11065] parameter 'CTRLTOKEN0' becomes localparam in 'encode' with formal parameter declaration list [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/hdmi_tx_0/hdl/encode.v:145]
+WARNING: [Synth 8-11065] parameter 'CTRLTOKEN1' becomes localparam in 'encode' with formal parameter declaration list [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/hdmi_tx_0/hdl/encode.v:146]
+WARNING: [Synth 8-11065] parameter 'CTRLTOKEN2' becomes localparam in 'encode' with formal parameter declaration list [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/hdmi_tx_0/hdl/encode.v:147]
+WARNING: [Synth 8-11065] parameter 'CTRLTOKEN3' becomes localparam in 'encode' with formal parameter declaration list [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/hdmi_tx_0/hdl/encode.v:148]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1189.113 ; gain = 408.840
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'mb_usb_hdmi_text_controller_0_0' [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/synth/mb_usb_hdmi_text_controller_0_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'hdmi_text_controller_v1_0' [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0.sv:9]
+INFO: [Synth 8-6157] synthesizing module 'hdmi_text_controller_v1_0_AXI' [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:27]
+WARNING: [Synth 8-324] index 70 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 71 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 72 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 73 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 74 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 75 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 76 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 77 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 78 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 79 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 80 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 81 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 82 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 83 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 84 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 85 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 86 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 87 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 88 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 89 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 90 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 91 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 92 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 93 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 94 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 95 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 96 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 97 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 98 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 99 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 100 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 101 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 102 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 103 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 104 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 105 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 106 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 107 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 108 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 109 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 110 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 111 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 112 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 113 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 114 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 115 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 116 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 117 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 118 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 119 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 120 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 121 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 122 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 123 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 124 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 125 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 126 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 127 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 128 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 129 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 130 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 131 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 132 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 133 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 134 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 135 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 136 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 137 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 138 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 139 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 140 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 141 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 142 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 143 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 144 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 145 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 146 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 147 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 148 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 149 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 150 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 151 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 152 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 153 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 154 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 155 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 156 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 157 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 158 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 159 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 160 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 161 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 162 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 163 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 164 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 165 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 166 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 167 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 168 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+WARNING: [Synth 8-324] index 169 out of range [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:258]
+INFO: [Common 17-14] Message 'Synth 8-324' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-6155] done synthesizing module 'hdmi_text_controller_v1_0_AXI' (0#1) [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0_AXI.sv:27]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/clk_wiz_0/clk_wiz_0.v:69]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0_clk_wiz' [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/clk_wiz_0/clk_wiz_0_clk_wiz.v:69]
+INFO: [Synth 8-6157] synthesizing module 'IBUF' [G:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:71326]
+INFO: [Synth 8-6155] done synthesizing module 'IBUF' (0#1) [G:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:71326]
+INFO: [Synth 8-6157] synthesizing module 'MMCME2_ADV' [G:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:79852]
+INFO: [Synth 8-6155] done synthesizing module 'MMCME2_ADV' (0#1) [G:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:79852]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [G:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:1082]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (0#1) [G:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:1082]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0_clk_wiz' (0#1) [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/clk_wiz_0/clk_wiz_0_clk_wiz.v:69]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (0#1) [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/clk_wiz_0/clk_wiz_0.v:69]
+INFO: [Synth 8-6157] synthesizing module 'vga_controller' [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/VGA_controller.sv:26]
+INFO: [Synth 8-6155] done synthesizing module 'vga_controller' (0#1) [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/VGA_controller.sv:26]
+WARNING: [Synth 8-7071] port 'sync' of module 'vga_controller' is unconnected for instance 'vga' [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0.sv:117]
+WARNING: [Synth 8-7023] instance 'vga' of module 'vga_controller' has 8 connections declared, but only 7 given [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0.sv:117]
+INFO: [Synth 8-6157] synthesizing module 'hdmi_tx_0' [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/hdmi_tx_0/synth/hdmi_tx_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'hdmi_tx_v1_0' [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/hdmi_tx_0/hdl/hdmi_tx_v1_0.v:70]
+INFO: [Synth 8-6157] synthesizing module 'srldelay' [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/hdmi_tx_0/hdl/srldelay.v:70]
+INFO: [Synth 8-6157] synthesizing module 'SRL16E' [G:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:131644]
+INFO: [Synth 8-6155] done synthesizing module 'SRL16E' (0#1) [G:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:131644]
+INFO: [Synth 8-6155] done synthesizing module 'srldelay' (0#1) [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/hdmi_tx_0/hdl/srldelay.v:70]
+INFO: [Synth 8-6157] synthesizing module 'encode' [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/hdmi_tx_0/hdl/encode.v:79]
+INFO: [Synth 8-6155] done synthesizing module 'encode' (0#1) [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/hdmi_tx_0/hdl/encode.v:79]
+INFO: [Synth 8-6157] synthesizing module 'encode__parameterized0' [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/hdmi_tx_0/hdl/encode.v:79]
+INFO: [Synth 8-6155] done synthesizing module 'encode__parameterized0' (0#1) [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/hdmi_tx_0/hdl/encode.v:79]
+INFO: [Synth 8-6157] synthesizing module 'encode__parameterized1' [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/hdmi_tx_0/hdl/encode.v:79]
+INFO: [Synth 8-6155] done synthesizing module 'encode__parameterized1' (0#1) [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/hdmi_tx_0/hdl/encode.v:79]
+INFO: [Synth 8-6157] synthesizing module 'serdes_10_to_1' [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/hdmi_tx_0/hdl/serdes_10_to_1.v:43]
+INFO: [Synth 8-6157] synthesizing module 'OSERDESE2' [G:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:94875]
+INFO: [Synth 8-6155] done synthesizing module 'OSERDESE2' (0#1) [G:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:94875]
+INFO: [Synth 8-6157] synthesizing module 'OSERDESE2__parameterized0' [G:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:94875]
+INFO: [Synth 8-6155] done synthesizing module 'OSERDESE2__parameterized0' (0#1) [G:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:94875]
+INFO: [Synth 8-6155] done synthesizing module 'serdes_10_to_1' (0#1) [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/hdmi_tx_0/hdl/serdes_10_to_1.v:43]
+INFO: [Synth 8-6157] synthesizing module 'OBUFDS' [G:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:90676]
+INFO: [Synth 8-6155] done synthesizing module 'OBUFDS' (0#1) [G:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:90676]
+INFO: [Synth 8-6155] done synthesizing module 'hdmi_tx_v1_0' (0#1) [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/hdmi_tx_0/hdl/hdmi_tx_v1_0.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'hdmi_tx_0' (0#1) [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/hdmi_tx_0/synth/hdmi_tx_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'timer' [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/timer.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'timer' (0#1) [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/timer.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'CM_Control' [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/CM_Control.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'color_mapper_menu' [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/color_mapper_menu.sv:8]
+INFO: [Synth 8-6157] synthesizing module 'frameRAM' [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/frameRAM.sv:7]
+INFO: [Synth 8-3876] $readmem data file '/VivadoProject/ip_repo/hdmi_text_controller_1_0/src/sprite_originalsmenu1.txt' is read successfully [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/frameRAM.sv:20]
+INFO: [Synth 8-3876] $readmem data file '/VivadoProject/ip_repo/hdmi_text_controller_1_0/src/sprite_originalsmenu2.txt' is read successfully [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/frameRAM.sv:21]
+INFO: [Synth 8-6155] done synthesizing module 'frameRAM' (0#1) [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/frameRAM.sv:7]
+INFO: [Synth 8-6155] done synthesizing module 'color_mapper_menu' (0#1) [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/color_mapper_menu.sv:8]
+INFO: [Synth 8-6157] synthesizing module 'color_mapper' [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/Color_Mapper.sv:8]
+INFO: [Synth 8-6157] synthesizing module 'font_rom' [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/font_rom.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'font_rom' (0#1) [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/font_rom.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'text_font' [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/text_font.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'text_font' (0#1) [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/text_font.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'ram2' [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/ram2.sv:7]
+INFO: [Synth 8-3876] $readmem data file '/VivadoProject/ip_repo/hdmi_text_controller_1_0/src/sprite_originalswasd.txt' is read successfully [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/ram2.sv:18]
+INFO: [Synth 8-6155] done synthesizing module 'ram2' (0#1) [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/ram2.sv:7]
+INFO: [Synth 8-6157] synthesizing module 'number' [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/number.sv:1]
+INFO: [Synth 8-155] case statement is not full and has no default [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/number.sv:7]
+INFO: [Synth 8-6155] done synthesizing module 'number' (0#1) [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/number.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'ramWINS' [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/ramWINS.sv:7]
+INFO: [Synth 8-3876] $readmem data file '/VivadoProject/ip_repo/hdmi_text_controller_1_0/src/BLACKWINS.txt' is read successfully [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/ramWINS.sv:21]
+INFO: [Synth 8-3876] $readmem data file '/VivadoProject/ip_repo/hdmi_text_controller_1_0/src/WHITEWINS.txt' is read successfully [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/ramWINS.sv:22]
+INFO: [Synth 8-3876] $readmem data file '/VivadoProject/ip_repo/hdmi_text_controller_1_0/src/HUMANWINS.txt' is read successfully [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/ramWINS.sv:23]
+INFO: [Synth 8-3876] $readmem data file '/VivadoProject/ip_repo/hdmi_text_controller_1_0/src/AIWINS.txt' is read successfully [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/ramWINS.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'ramWINS' (0#1) [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/ramWINS.sv:7]
+INFO: [Synth 8-6157] synthesizing module 'press_ram' [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/press_ram.sv:1]
+INFO: [Synth 8-3876] $readmem data file '/VivadoProject/ip_repo/hdmi_text_controller_1_0/src/sprite_originalsPRESS.txt' is read successfully [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/press_ram.sv:12]
+INFO: [Synth 8-6155] done synthesizing module 'press_ram' (0#1) [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/press_ram.sv:1]
+INFO: [Synth 8-155] case statement is not full and has no default [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/Color_Mapper.sv:166]
+INFO: [Synth 8-155] case statement is not full and has no default [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/Color_Mapper.sv:256]
+INFO: [Synth 8-155] case statement is not full and has no default [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/Color_Mapper.sv:267]
+INFO: [Synth 8-155] case statement is not full and has no default [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/Color_Mapper.sv:254]
+INFO: [Synth 8-155] case statement is not full and has no default [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/Color_Mapper.sv:305]
+INFO: [Synth 8-6155] done synthesizing module 'color_mapper' (0#1) [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/Color_Mapper.sv:8]
+INFO: [Synth 8-6155] done synthesizing module 'CM_Control' (0#1) [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/CM_Control.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'hdmi_text_controller_v1_0' (0#1) [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/hdmi_text_controller_v1_0.sv:9]
+INFO: [Synth 8-6155] done synthesizing module 'mb_usb_hdmi_text_controller_0_0' (0#1) [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/synth/mb_usb_hdmi_text_controller_0_0.sv:53]
+WARNING: [Synth 8-6014] Unused sequential element hdmi_ctl1_reg was removed.  [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/hdmi_tx_0/hdl/hdmi_tx_v1_0.v:148]
+WARNING: [Synth 8-6014] Unused sequential element sec10_reg was removed.  [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/timer.sv:69]
+WARNING: [Synth 8-87] always_comb on 'read_addr_reg' did not result in combinational logic [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/color_mapper_menu.sv:30]
+WARNING: [Synth 8-87] always_comb on 'index_reg' did not result in combinational logic [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/number.sv:9]
+WARNING: [Synth 8-87] always_comb on 'addr_reg' did not result in combinational logic [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/Color_Mapper.sv:50]
+WARNING: [Synth 8-87] always_comb on 'cur_blk_reg' did not result in combinational logic [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/Color_Mapper.sv:168]
+WARNING: [Synth 8-87] always_comb on 'text_blk_reg' did not result in combinational logic [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/Color_Mapper.sv:258]
+WARNING: [Synth 8-87] always_comb on 'text_addr_reg' did not result in combinational logic [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/Color_Mapper.sv:55]
+WARNING: [Synth 8-87] always_comb on 'read_addr_reg' did not result in combinational logic [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/Color_Mapper.sv:60]
+WARNING: [Synth 8-87] always_comb on 'read_addr_wins_reg' did not result in combinational logic [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/Color_Mapper.sv:89]
+WARNING: [Synth 8-87] always_comb on 'read_addr_press_reg' did not result in combinational logic [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/Color_Mapper.sv:101]
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[2] in module hdmi_text_controller_v1_0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[1] in module hdmi_text_controller_v1_0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[0] in module hdmi_text_controller_v1_0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[2] in module hdmi_text_controller_v1_0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[1] in module hdmi_text_controller_v1_0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[0] in module hdmi_text_controller_v1_0_AXI is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 1641.023 ; gain = 860.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1641.023 ; gain = 860.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1641.023 ; gain = 860.750
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.107 . Memory (MB): peak = 1641.023 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/clk_wiz_0/clk_wiz_0.xdc] for cell 'inst/clk_wiz/inst'
+Finished Parsing XDC File [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/clk_wiz_0/clk_wiz_0.xdc] for cell 'inst/clk_wiz/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/clk_wiz_0/clk_wiz_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/mb_usb_hdmi_text_controller_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/mb_usb_hdmi_text_controller_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Parsing XDC File [G:/VivadoProject/gomoku/gomoku.runs/mb_usb_hdmi_text_controller_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [G:/VivadoProject/gomoku/gomoku.runs/mb_usb_hdmi_text_controller_0_0_synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [G:/VivadoProject/gomoku/gomoku.runs/mb_usb_hdmi_text_controller_0_0_synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/mb_usb_hdmi_text_controller_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/mb_usb_hdmi_text_controller_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1740.148 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.075 . Memory (MB): peak = 1740.176 ; gain = 0.027
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [G:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 1740.176 ; gain = 959.902
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7s50csga324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 1740.176 ; gain = 959.902
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst/clk_wiz/inst. (constraint file  G:/VivadoProject/gomoku/gomoku.runs/mb_usb_hdmi_text_controller_0_0_synth_1/dont_touch.xdc, line 14).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/clk_wiz. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/vga_to_hdmi. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 1740.176 ; gain = 959.902
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'read_addr_reg' [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/color_mapper_menu.sv:30]
+WARNING: [Synth 8-327] inferring latch for variable 'index_reg' [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/number.sv:9]
+WARNING: [Synth 8-327] inferring latch for variable 'addr_reg' [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/Color_Mapper.sv:50]
+WARNING: [Synth 8-327] inferring latch for variable 'text_addr_reg' [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/Color_Mapper.sv:55]
+WARNING: [Synth 8-327] inferring latch for variable 'read_addr_reg' [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/Color_Mapper.sv:60]
+WARNING: [Synth 8-327] inferring latch for variable 'read_addr_wins_reg' [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/Color_Mapper.sv:89]
+WARNING: [Synth 8-327] inferring latch for variable 'read_addr_press_reg' [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/Color_Mapper.sv:101]
+WARNING: [Synth 8-327] inferring latch for variable 'text_blk_reg' [g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ipshared/3884/src/Color_Mapper.sv:258]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:57 ; elapsed = 00:00:58 . Memory (MB): peak = 1997.988 ; gain = 1217.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 2     
+	   2 Input   25 Bit       Adders := 1     
+	   2 Input   21 Bit       Adders := 2     
+	   2 Input   11 Bit       Adders := 2     
+	   2 Input   10 Bit       Adders := 12    
+	   2 Input    7 Bit       Adders := 2     
+	   5 Input    5 Bit       Adders := 6     
+	   4 Input    5 Bit       Adders := 3     
+	   2 Input    5 Bit       Adders := 2     
+	   8 Input    4 Bit       Adders := 6     
+	   2 Input    4 Bit       Adders := 3     
+	   2 Input    3 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 42    
++---Registers : 
+	               32 Bit    Registers := 71    
+	               25 Bit    Registers := 1     
+	               21 Bit    Registers := 2     
+	               16 Bit    Registers := 2     
+	               10 Bit    Registers := 5     
+	                9 Bit    Registers := 3     
+	                8 Bit    Registers := 3     
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 15    
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 42    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 70    
+	   2 Input   21 Bit        Muxes := 2     
+	   2 Input   11 Bit        Muxes := 2     
+	   2 Input   10 Bit        Muxes := 6     
+	  22 Input   10 Bit        Muxes := 1     
+	   4 Input   10 Bit        Muxes := 2     
+	   2 Input    8 Bit        Muxes := 316   
+	   4 Input    8 Bit        Muxes := 8     
+	   6 Input    8 Bit        Muxes := 2     
+	   2 Input    5 Bit        Muxes := 14    
+	1024 Input    5 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 4     
+	   5 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 2     
+	   3 Input    3 Bit        Muxes := 2     
+	   2 Input    2 Bit        Muxes := 1     
+	   3 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 35    
+	  11 Input    1 Bit        Muxes := 4     
+	  24 Input    1 Bit        Muxes := 1     
+	   5 Input    1 Bit        Muxes := 1     
+	   6 Input    1 Bit        Muxes := 1     
+	   4 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 120 (col length:60)
+BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+DSP Report: Generating DSP read_addr0, operation Mode is: C+A*(B:0x1f4).
+DSP Report: operator read_addr0 is absorbed into DSP read_addr0.
+DSP Report: operator read_addr1 is absorbed into DSP read_addr0.
+DSP Report: Generating DSP read_addr0, operation Mode is: C+A*(B:0x78).
+DSP Report: operator read_addr0 is absorbed into DSP read_addr0.
+DSP Report: operator read_addr1 is absorbed into DSP read_addr0.
+DSP Report: Generating DSP read_addr_press0, operation Mode is: C+A*(B:0x180).
+DSP Report: operator read_addr_press0 is absorbed into DSP read_addr_press0.
+DSP Report: operator read_addr_press1 is absorbed into DSP read_addr_press0.
+WARNING: [Synth 8-3332] Sequential element (index_reg[7]) is unused and will be removed from module number__1.
+WARNING: [Synth 8-3332] Sequential element (index_reg[6]) is unused and will be removed from module number__1.
+WARNING: [Synth 8-3332] Sequential element (index_reg[5]) is unused and will be removed from module number__1.
+WARNING: [Synth 8-3332] Sequential element (index_reg[7]) is unused and will be removed from module number__2.
+WARNING: [Synth 8-3332] Sequential element (index_reg[6]) is unused and will be removed from module number__2.
+WARNING: [Synth 8-3332] Sequential element (index_reg[5]) is unused and will be removed from module number__2.
+WARNING: [Synth 8-3332] Sequential element (index_reg[7]) is unused and will be removed from module number__3.
+WARNING: [Synth 8-3332] Sequential element (index_reg[6]) is unused and will be removed from module number__3.
+WARNING: [Synth 8-3332] Sequential element (index_reg[5]) is unused and will be removed from module number__3.
+WARNING: [Synth 8-3332] Sequential element (index_reg[7]) is unused and will be removed from module number.
+WARNING: [Synth 8-3332] Sequential element (index_reg[6]) is unused and will be removed from module number.
+WARNING: [Synth 8-3332] Sequential element (index_reg[5]) is unused and will be removed from module number.
+WARNING: [Synth 8-3332] Sequential element (read_addr_wins_reg[14]) is unused and will be removed from module color_mapper.
+WARNING: [Synth 8-3332] Sequential element (read_addr_press_reg[18]) is unused and will be removed from module color_mapper.
+WARNING: [Synth 8-3332] Sequential element (read_addr_press_reg[17]) is unused and will be removed from module color_mapper.
+WARNING: [Synth 8-3332] Sequential element (read_addr_press_reg[16]) is unused and will be removed from module color_mapper.
+WARNING: [Synth 8-3332] Sequential element (read_addr_press_reg[15]) is unused and will be removed from module color_mapper.
+WARNING: [Synth 8-3332] Sequential element (read_addr_press_reg[14]) is unused and will be removed from module color_mapper.
+WARNING: [Synth 8-3332] Sequential element (read_addr_press_reg[13]) is unused and will be removed from module color_mapper.
+WARNING: [Synth 8-3332] Sequential element (text_blk_reg[7]) is unused and will be removed from module color_mapper.
+WARNING: [Synth 8-3332] Sequential element (index_reg[3]) is unused and will be removed from module number__2.
+WARNING: [Synth 8-3332] Sequential element (index_reg[2]) is unused and will be removed from module number__2.
+WARNING: [Synth 8-3332] Sequential element (index_reg[1]) is unused and will be removed from module number__2.
+WARNING: [Synth 8-3332] Sequential element (index_reg[0]) is unused and will be removed from module number__2.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:52 ; elapsed = 00:02:54 . Memory (MB): peak = 2029.949 ; gain = 1249.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++-------------+------------+---------------+----------------+
+|Module Name  | RTL Object | Depth x Width | Implemented As | 
++-------------+------------+---------------+----------------+
+|frameRAM     | mem        | 262144x5      | LUT            | 
+|frameRAM     | mem1       | 262144x5      | LUT            | 
+|font_rom     | ROM        | 32x7          | LUT            | 
+|text_font    | ROM        | 2048x8        | LUT            | 
+|ram2         | mem        | 65536x5       | LUT            | 
+|ramWINS      | mem3       | 16384x3       | LUT            | 
+|ramWINS      | mem2       | 16384x3       | LUT            | 
+|ramWINS      | mem1       | 16384x3       | LUT            | 
+|ramWINS      | mem        | 16384x3       | LUT            | 
+|press_ram    | mem        | 8192x3        | LUT            | 
+|text_font    | ROM        | 2048x8        | LUT            | 
+|ram2         | p_0_out    | 65536x5       | LUT            | 
+|ramWINS      | p_0_out    | 16384x3       | LUT            | 
+|ramWINS      | p_0_out    | 16384x3       | LUT            | 
+|ramWINS      | p_0_out    | 16384x3       | LUT            | 
+|ramWINS      | p_0_out    | 16384x3       | LUT            | 
+|press_ram    | p_0_out    | 8192x3        | LUT            | 
+|color_mapper | font/ROM   | 32x7          | LUT            | 
++-------------+------------+---------------+----------------+
+
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++------------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name       | DSP Mapping   | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|color_mapper_menu | C+A*(B:0x1f4) | 10     | 9      | 10     | -      | 19     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|color_mapper      | C+A*(B:0x78)  | 10     | 7      | 10     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|color_mapper      | C+A*(B:0x180) | 10     | 9      | 10     | -      | 19     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
++------------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:03:02 ; elapsed = 00:03:04 . Memory (MB): peak = 2029.949 ; gain = 1249.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:03:07 ; elapsed = 00:03:09 . Memory (MB): peak = 2031.871 ; gain = 1251.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:03:16 ; elapsed = 00:03:18 . Memory (MB): peak = 2031.871 ; gain = 1251.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:03:22 ; elapsed = 00:03:25 . Memory (MB): peak = 2031.871 ; gain = 1251.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:03:22 ; elapsed = 00:03:25 . Memory (MB): peak = 2031.871 ; gain = 1251.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:24 ; elapsed = 00:03:27 . Memory (MB): peak = 2031.871 ; gain = 1251.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:03:30 ; elapsed = 00:03:33 . Memory (MB): peak = 2031.871 ; gain = 1251.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:03:31 ; elapsed = 00:03:34 . Memory (MB): peak = 2031.871 ; gain = 1251.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:03:31 ; elapsed = 00:03:34 . Memory (MB): peak = 2031.871 ; gain = 1251.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+----------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name             | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+----------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|hdmi_tx_0   | inst/encg/c0_reg_reg | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
++------------+----------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name       | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|color_mapper      | C+A*B       | 10     | 7      | 10     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|color_mapper      | C+A*B       | 10     | 9      | 10     | -      | 19     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|color_mapper_menu | C+A*B       | 10     | 9      | 10     | -      | 19     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
++------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |BUFG       |     3|
+|2     |CARRY4     |   243|
+|3     |DSP48E1    |     3|
+|4     |LUT1       |    77|
+|5     |LUT2       |   409|
+|6     |LUT3       |   334|
+|7     |LUT4       |   654|
+|8     |LUT5       |  2448|
+|9     |LUT6       | 12424|
+|10    |MMCME2_ADV |     1|
+|11    |MUXF7      |  3213|
+|12    |MUXF8      |   597|
+|13    |OSERDESE2  |     8|
+|15    |SRL16E     |    39|
+|16    |FDCE       |    67|
+|17    |FDRE       |  2495|
+|18    |FDSE       |     1|
+|19    |LD         |   286|
+|20    |IBUF       |     1|
+|21    |OBUFDS     |     4|
++------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:03:31 ; elapsed = 00:03:34 . Memory (MB): peak = 2031.871 ; gain = 1251.598
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 33 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:58 ; elapsed = 00:03:30 . Memory (MB): peak = 2031.871 ; gain = 1152.445
+Synthesis Optimization Complete : Time (s): cpu = 00:03:31 ; elapsed = 00:03:34 . Memory (MB): peak = 2031.871 ; gain = 1251.598
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.251 . Memory (MB): peak = 2031.871 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 4347 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 2031.871 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 286 instances were transformed.
+  LD => LDCE: 286 instances
+
+Synth Design complete, checksum: 19b0a37b
+INFO: [Common 17-83] Releasing license: Synthesis
+104 Infos, 156 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:03:39 ; elapsed = 00:03:42 . Memory (MB): peak = 2031.871 ; gain = 1626.281
+INFO: [Common 17-1381] The checkpoint 'G:/VivadoProject/gomoku/gomoku.runs/mb_usb_hdmi_text_controller_0_0_synth_1/mb_usb_hdmi_text_controller_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP mb_usb_hdmi_text_controller_0_0, cache-ID = f2f73dd749e01d92
+INFO: [Coretcl 2-1174] Renamed 26 cell refs.
+INFO: [Common 17-1381] The checkpoint 'G:/VivadoProject/gomoku/gomoku.runs/mb_usb_hdmi_text_controller_0_0_synth_1/mb_usb_hdmi_text_controller_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file mb_usb_hdmi_text_controller_0_0_utilization_synth.rpt -pb mb_usb_hdmi_text_controller_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri May  3 16:45:37 2024...

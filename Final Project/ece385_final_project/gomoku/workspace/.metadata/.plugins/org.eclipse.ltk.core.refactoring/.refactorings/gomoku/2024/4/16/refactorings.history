@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;gomoku/src/hdmi_text_controller.c&apos; to &apos;gomoku_game.c&apos;" description="Rename resource &apos;hdmi_text_controller.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/hdmi_text_controller.c" name="gomoku_game.c" stamp="1713399596437" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;gomoku/src/hdmi_text_controller.h&apos; to &apos;gomoku_game.h&apos;" description="Rename resource &apos;hdmi_text_controller.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/hdmi_text_controller.h" name="gomoku_game.h" stamp="1713399604279" updateReferences="true"/>
+</session>

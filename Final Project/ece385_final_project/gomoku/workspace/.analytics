@@ -1,0 +1,1103 @@
+timestamp=[2024-04-17 17:38:08], mode=WORKBENCH_START, duration=0:00:06.634, duration_ms=6634, data={}
+timestamp=[2024-04-17 17:38:08], mode=WORKBENCH_UI_INIT, duration=0:00:00.392, duration_ms=392, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-04-17 17:38:09], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.143, duration_ms=143, data={}
+timestamp=[2024-04-17 17:39:13], mode=APP_CREATION, duration=0:00:03.206, duration_ms=3206, data={name=gomoku, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=mb_usb_hdmi_top, application_type=application}
+timestamp=[2024-04-17 17:41:57], mode=PLATFORM_GENERATION, duration=0:00:04.919, duration_ms=4919, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-17 17:41:59], mode=BUILD, duration=0:00:01.755, duration_ms=1755, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 17:41:59], mode=BUILD, duration=0:00:00.213, duration_ms=213, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 18:04:44], mode=PLATFORM_GENERATION, duration=0:00:04.571, duration_ms=4571, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-17 18:04:45], mode=BUILD, duration=0:00:00.317, duration_ms=317, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-04-17 18:04:58], mode=PLATFORM_GENERATION, duration=0:00:07.942, duration_ms=7942, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-17 18:05:01], mode=BUILD, duration=0:00:03.202, duration_ms=3202, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 18:05:07], mode=BUILD, duration=0:00:00.321, duration_ms=321, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 18:15:05], mode=WORKBENCH_START, duration=0:00:10.341, duration_ms=10341, data={}
+timestamp=[2024-04-17 18:15:05], mode=WORKBENCH_UI_INIT, duration=0:00:00.911, duration_ms=911, data={editors_count=5, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,gomoku,gomoku_system,mb_usb_hdmi_top}
+timestamp=[2024-04-17 18:15:06], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.039, duration_ms=39, data={}
+timestamp=[2024-04-17 18:15:38], mode=PLATFORM_GENERATION, duration=0:00:07.805, duration_ms=7805, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-17 18:15:42], mode=BUILD, duration=0:00:02.675, duration_ms=2675, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 18:15:43], mode=BUILD, duration=0:00:00.267, duration_ms=267, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 18:21:55], mode=BUILD, duration=0:00:00.481, duration_ms=481, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 18:22:31], mode=BUILD, duration=0:00:01.205, duration_ms=1205, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 18:22:32], mode=BUILD, duration=0:00:00.249, duration_ms=249, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 18:24:11], mode=BUILD, duration=0:00:01.220, duration_ms=1220, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 18:24:12], mode=BUILD, duration=0:00:00.263, duration_ms=263, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 18:28:45], mode=BUILD, duration=0:00:01.226, duration_ms=1226, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 18:28:46], mode=BUILD, duration=0:00:00.259, duration_ms=259, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 18:30:12], mode=BUILD, duration=0:00:01.143, duration_ms=1143, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 18:30:13], mode=BUILD, duration=0:00:00.246, duration_ms=246, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 18:33:14], mode=BUILD, duration=0:00:01.228, duration_ms=1228, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 18:33:15], mode=BUILD, duration=0:00:00.245, duration_ms=245, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 18:34:29], mode=BUILD, duration=0:00:01.139, duration_ms=1139, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 18:34:29], mode=BUILD, duration=0:00:00.246, duration_ms=246, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 19:45:38], mode=PLATFORM_GENERATION, duration=0:00:06.207, duration_ms=6207, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-17 19:45:39], mode=BUILD, duration=0:00:00.203, duration_ms=203, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-04-17 19:45:40], mode=BUILD, duration=0:00:01.575, duration_ms=1575, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 19:45:41], mode=BUILD, duration=0:00:00.136, duration_ms=136, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 19:57:40], mode=PLATFORM_GENERATION, duration=0:00:08.468, duration_ms=8468, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-17 19:57:44], mode=BUILD, duration=0:00:02.701, duration_ms=2701, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 19:57:44], mode=BUILD, duration=0:00:00.240, duration_ms=240, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 19:59:17], mode=BUILD, duration=0:00:01.642, duration_ms=1642, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 19:59:18], mode=BUILD, duration=0:00:00.264, duration_ms=264, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 20:15:50], mode=PLATFORM_GENERATION, duration=0:00:09.393, duration_ms=9393, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-17 20:15:53], mode=BUILD, duration=0:00:02.545, duration_ms=2545, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 20:15:54], mode=BUILD, duration=0:00:00.239, duration_ms=239, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 20:35:27], mode=PLATFORM_GENERATION, duration=0:00:08.590, duration_ms=8590, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-17 20:35:30], mode=BUILD, duration=0:00:02.480, duration_ms=2480, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 20:35:31], mode=BUILD, duration=0:00:00.248, duration_ms=248, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 20:35:48], mode=BUILD, duration=0:00:01.408, duration_ms=1408, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 20:35:49], mode=BUILD, duration=0:00:00.249, duration_ms=249, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 20:49:03], mode=PLATFORM_GENERATION, duration=0:00:09.019, duration_ms=9019, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-17 20:49:06], mode=BUILD, duration=0:00:02.658, duration_ms=2658, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 20:49:07], mode=BUILD, duration=0:00:00.258, duration_ms=258, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 21:03:20], mode=WORKBENCH_START, duration=0:00:07.162, duration_ms=7162, data={}
+timestamp=[2024-04-17 21:03:20], mode=WORKBENCH_UI_INIT, duration=0:00:00.528, duration_ms=528, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,gomoku,gomoku_system,mb_usb_hdmi_top}
+timestamp=[2024-04-17 21:03:21], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.023, duration_ms=23, data={}
+timestamp=[2024-04-17 21:03:39], mode=PLATFORM_GENERATION, duration=0:00:03.135, duration_ms=3135, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-17 21:03:39], mode=BUILD, duration=0:00:00.205, duration_ms=205, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-04-17 21:03:39], mode=BUILD, duration=0:00:00.199, duration_ms=199, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-17 21:03:47], mode=PLATFORM_GENERATION, duration=0:00:05.079, duration_ms=5079, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-17 21:03:49], mode=BUILD, duration=0:00:01.977, duration_ms=1977, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 21:03:49], mode=BUILD, duration=0:00:00.140, duration_ms=140, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 21:11:45], mode=PLATFORM_GENERATION, duration=0:00:03.116, duration_ms=3116, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-17 21:11:45], mode=BUILD, duration=0:00:00.193, duration_ms=193, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-04-17 21:11:45], mode=BUILD, duration=0:00:00.186, duration_ms=186, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-17 21:11:52], mode=PLATFORM_GENERATION, duration=0:00:04.952, duration_ms=4952, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-17 21:11:55], mode=BUILD, duration=0:00:02.100, duration_ms=2100, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 21:11:55], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 21:12:05], mode=BUILD, duration=0:00:00.193, duration_ms=193, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 21:12:05], mode=BUILD, duration=0:00:00.127, duration_ms=127, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 21:32:05], mode=BUILD, duration=0:00:01.131, duration_ms=1131, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 21:32:06], mode=BUILD, duration=0:00:00.135, duration_ms=135, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 21:57:49], mode=BUILD, duration=0:00:01.718, duration_ms=1718, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 21:57:49], mode=BUILD, duration=0:00:00.243, duration_ms=243, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 22:04:31], mode=BUILD, duration=0:00:00.513, duration_ms=513, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 22:04:52], mode=BUILD, duration=0:00:01.391, duration_ms=1391, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 22:04:53], mode=BUILD, duration=0:00:00.245, duration_ms=245, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 22:11:05], mode=BUILD, duration=0:00:00.502, duration_ms=502, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 22:11:48], mode=BUILD, duration=0:00:01.134, duration_ms=1134, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 22:11:49], mode=BUILD, duration=0:00:00.248, duration_ms=248, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 22:12:16], mode=BUILD, duration=0:00:00.337, duration_ms=337, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 22:12:17], mode=BUILD, duration=0:00:00.247, duration_ms=247, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 22:14:08], mode=BUILD, duration=0:00:01.131, duration_ms=1131, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 22:14:08], mode=BUILD, duration=0:00:00.240, duration_ms=240, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 22:20:21], mode=BUILD, duration=0:00:01.599, duration_ms=1599, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 22:20:22], mode=BUILD, duration=0:00:00.246, duration_ms=246, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 22:25:38], mode=BUILD, duration=0:00:00.324, duration_ms=324, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 22:26:23], mode=BUILD, duration=0:00:00.701, duration_ms=701, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 22:26:23], mode=BUILD, duration=0:00:00.124, duration_ms=124, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 22:26:54], mode=BUILD, duration=0:00:00.222, duration_ms=222, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 22:26:54], mode=BUILD, duration=0:00:00.129, duration_ms=129, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 22:31:32], mode=BUILD, duration=0:00:00.632, duration_ms=632, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 22:31:32], mode=BUILD, duration=0:00:00.129, duration_ms=129, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 22:32:21], mode=BUILD, duration=0:00:00.318, duration_ms=318, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 22:32:39], mode=BUILD, duration=0:00:00.702, duration_ms=702, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 22:32:40], mode=BUILD, duration=0:00:00.124, duration_ms=124, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 22:35:11], mode=BUILD, duration=0:00:00.503, duration_ms=503, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 22:35:21], mode=BUILD, duration=0:00:00.693, duration_ms=693, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 22:35:21], mode=BUILD, duration=0:00:00.131, duration_ms=131, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 22:35:24], mode=BUILD, duration=0:00:00.197, duration_ms=197, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-17 22:35:24], mode=BUILD, duration=0:00:00.116, duration_ms=116, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 10:33:05], mode=BUILD, duration=0:00:01.018, duration_ms=1018, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 10:33:05], mode=BUILD, duration=0:00:00.155, duration_ms=155, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 10:33:27], mode=BUILD, duration=0:00:00.284, duration_ms=284, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 10:33:27], mode=BUILD, duration=0:00:00.205, duration_ms=205, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 10:47:49], mode=BUILD, duration=0:00:01.273, duration_ms=1273, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 10:47:49], mode=BUILD, duration=0:00:00.130, duration_ms=130, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 10:53:48], mode=BUILD, duration=0:00:01.260, duration_ms=1260, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 10:53:49], mode=BUILD, duration=0:00:00.206, duration_ms=206, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 10:57:02], mode=BUILD, duration=0:00:00.412, duration_ms=412, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 10:57:30], mode=BUILD, duration=0:00:01.023, duration_ms=1023, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 10:57:30], mode=BUILD, duration=0:00:00.146, duration_ms=146, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 11:00:24], mode=BUILD, duration=0:00:01.222, duration_ms=1222, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 11:00:25], mode=BUILD, duration=0:00:00.137, duration_ms=137, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 11:00:46], mode=BUILD, duration=0:00:00.183, duration_ms=183, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 11:00:46], mode=BUILD, duration=0:00:00.132, duration_ms=132, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 11:06:20], mode=BUILD, duration=0:00:00.330, duration_ms=330, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 11:06:36], mode=BUILD, duration=0:00:00.891, duration_ms=891, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 11:06:36], mode=BUILD, duration=0:00:00.188, duration_ms=188, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 11:24:44], mode=WORKBENCH_START, duration=0:00:07.393, duration_ms=7393, data={}
+timestamp=[2024-04-18 11:24:44], mode=WORKBENCH_UI_INIT, duration=0:00:00.542, duration_ms=542, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,gomoku,gomoku_system,mb_usb_hdmi_top}
+timestamp=[2024-04-18 11:24:45], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.022, duration_ms=22, data={}
+timestamp=[2024-04-18 11:25:11], mode=PLATFORM_GENERATION, duration=0:00:03.204, duration_ms=3204, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-18 11:25:11], mode=BUILD, duration=0:00:00.205, duration_ms=205, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-04-18 11:25:12], mode=BUILD, duration=0:00:00.224, duration_ms=224, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-18 11:25:19], mode=PLATFORM_GENERATION, duration=0:00:05.217, duration_ms=5217, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-18 11:25:22], mode=BUILD, duration=0:00:02.749, duration_ms=2749, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 11:25:22], mode=BUILD, duration=0:00:00.134, duration_ms=134, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 11:39:19], mode=PLATFORM_GENERATION, duration=0:00:03.435, duration_ms=3435, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-18 11:39:19], mode=BUILD, duration=0:00:00.209, duration_ms=209, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-04-18 11:39:19], mode=BUILD, duration=0:00:00.182, duration_ms=182, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-18 11:39:27], mode=PLATFORM_GENERATION, duration=0:00:05.458, duration_ms=5458, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-18 11:39:30], mode=BUILD, duration=0:00:02.346, duration_ms=2346, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 11:39:30], mode=BUILD, duration=0:00:00.130, duration_ms=130, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 11:39:34], mode=BUILD, duration=0:00:00.200, duration_ms=200, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 11:39:35], mode=BUILD, duration=0:00:00.134, duration_ms=134, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 11:51:17], mode=BUILD, duration=0:00:00.323, duration_ms=323, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 11:51:41], mode=BUILD, duration=0:00:00.326, duration_ms=326, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 11:52:20], mode=BUILD, duration=0:00:01.143, duration_ms=1143, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 11:52:20], mode=BUILD, duration=0:00:00.130, duration_ms=130, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 12:02:26], mode=BUILD, duration=0:00:00.330, duration_ms=330, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 12:04:19], mode=BUILD, duration=0:00:00.331, duration_ms=331, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 12:04:48], mode=BUILD, duration=0:00:01.207, duration_ms=1207, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 12:04:48], mode=BUILD, duration=0:00:00.144, duration_ms=144, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 12:15:57], mode=BUILD, duration=0:00:01.202, duration_ms=1202, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 12:15:57], mode=BUILD, duration=0:00:00.122, duration_ms=122, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 12:16:16], mode=BUILD, duration=0:00:00.270, duration_ms=270, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 12:16:17], mode=BUILD, duration=0:00:00.220, duration_ms=220, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 12:22:47], mode=BUILD, duration=0:00:00.893, duration_ms=893, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 12:22:48], mode=BUILD, duration=0:00:00.185, duration_ms=185, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 12:24:06], mode=BUILD, duration=0:00:00.944, duration_ms=944, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 12:24:07], mode=BUILD, duration=0:00:00.140, duration_ms=140, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 12:25:30], mode=BUILD, duration=0:00:01.016, duration_ms=1016, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 12:25:31], mode=BUILD, duration=0:00:00.213, duration_ms=213, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 12:26:24], mode=BUILD, duration=0:00:01.203, duration_ms=1203, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 12:26:25], mode=BUILD, duration=0:00:00.132, duration_ms=132, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 12:28:39], mode=BUILD, duration=0:00:01.200, duration_ms=1200, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 12:28:40], mode=BUILD, duration=0:00:00.139, duration_ms=139, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 12:30:07], mode=BUILD, duration=0:00:01.031, duration_ms=1031, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 12:30:07], mode=BUILD, duration=0:00:00.185, duration_ms=185, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 12:30:15], mode=BUILD, duration=0:00:00.941, duration_ms=941, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 12:30:16], mode=BUILD, duration=0:00:00.189, duration_ms=189, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 12:31:16], mode=BUILD, duration=0:00:00.958, duration_ms=958, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 12:31:16], mode=BUILD, duration=0:00:00.190, duration_ms=190, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 12:32:55], mode=BUILD, duration=0:00:00.878, duration_ms=878, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 12:32:56], mode=BUILD, duration=0:00:00.126, duration_ms=126, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 15:50:56], mode=PLATFORM_GENERATION, duration=0:00:03.531, duration_ms=3531, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-18 15:50:56], mode=BUILD, duration=0:00:00.265, duration_ms=265, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-04-18 15:50:56], mode=BUILD, duration=0:00:00.199, duration_ms=199, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-18 15:52:01], mode=PLATFORM_GENERATION, duration=0:00:05.812, duration_ms=5812, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-18 15:52:04], mode=BUILD, duration=0:00:02.613, duration_ms=2613, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 15:52:05], mode=BUILD, duration=0:00:00.194, duration_ms=194, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 15:55:19], mode=PLATFORM_GENERATION, duration=0:00:05.738, duration_ms=5738, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-18 15:55:21], mode=BUILD, duration=0:00:02.024, duration_ms=2024, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 15:55:21], mode=BUILD, duration=0:00:00.120, duration_ms=120, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 15:55:24], mode=BUILD, duration=0:00:00.201, duration_ms=201, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 15:55:25], mode=BUILD, duration=0:00:00.179, duration_ms=179, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 16:04:31], mode=BUILD, duration=0:00:00.322, duration_ms=322, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 16:04:46], mode=BUILD, duration=0:00:01.149, duration_ms=1149, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 16:05:29], mode=BUILD, duration=0:00:01.323, duration_ms=1323, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 16:05:29], mode=BUILD, duration=0:00:00.138, duration_ms=138, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 16:06:37], mode=BUILD, duration=0:00:01.277, duration_ms=1277, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 16:06:37], mode=BUILD, duration=0:00:00.147, duration_ms=147, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 16:10:16], mode=BUILD, duration=0:00:01.148, duration_ms=1148, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 16:10:16], mode=BUILD, duration=0:00:00.202, duration_ms=202, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 16:11:14], mode=BUILD, duration=0:00:01.101, duration_ms=1101, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 16:11:14], mode=BUILD, duration=0:00:00.202, duration_ms=202, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 16:12:57], mode=BUILD, duration=0:00:00.390, duration_ms=390, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 16:13:22], mode=BUILD, duration=0:00:01.013, duration_ms=1013, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 16:13:23], mode=BUILD, duration=0:00:00.143, duration_ms=143, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 16:14:47], mode=BUILD, duration=0:00:01.269, duration_ms=1269, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 16:14:47], mode=BUILD, duration=0:00:00.192, duration_ms=192, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 16:17:36], mode=BUILD, duration=0:00:00.775, duration_ms=775, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 16:17:36], mode=BUILD, duration=0:00:00.186, duration_ms=186, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 16:18:19], mode=BUILD, duration=0:00:01.009, duration_ms=1009, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 16:18:20], mode=BUILD, duration=0:00:00.205, duration_ms=205, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 16:18:57], mode=BUILD, duration=0:00:00.978, duration_ms=978, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 16:18:57], mode=BUILD, duration=0:00:00.192, duration_ms=192, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 16:27:17], mode=BUILD, duration=0:00:00.713, duration_ms=713, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 16:27:17], mode=BUILD, duration=0:00:00.189, duration_ms=189, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 16:51:19], mode=PLATFORM_GENERATION, duration=0:00:06.040, duration_ms=6040, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-18 16:51:19], mode=BUILD, duration=0:00:00.384, duration_ms=384, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-04-18 16:51:20], mode=BUILD, duration=0:00:00.323, duration_ms=323, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-18 16:52:06], mode=PLATFORM_GENERATION, duration=0:00:33.350, duration_ms=33350, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-18 16:52:11], mode=BUILD, duration=0:00:03.972, duration_ms=3972, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 16:52:12], mode=BUILD, duration=0:00:00.243, duration_ms=243, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 17:02:27], mode=BUILD, duration=0:00:01.968, duration_ms=1968, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 17:02:27], mode=BUILD, duration=0:00:00.245, duration_ms=245, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 17:09:06], mode=BUILD, duration=0:00:01.214, duration_ms=1214, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 17:09:07], mode=BUILD, duration=0:00:00.241, duration_ms=241, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 17:13:27], mode=BUILD, duration=0:00:01.209, duration_ms=1209, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 17:13:27], mode=BUILD, duration=0:00:00.244, duration_ms=244, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 17:16:51], mode=BUILD, duration=0:00:01.593, duration_ms=1593, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 17:16:52], mode=BUILD, duration=0:00:00.245, duration_ms=245, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 17:18:33], mode=BUILD, duration=0:00:01.595, duration_ms=1595, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 17:18:34], mode=BUILD, duration=0:00:00.244, duration_ms=244, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 17:19:43], mode=BUILD, duration=0:00:01.527, duration_ms=1527, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 17:19:44], mode=BUILD, duration=0:00:00.249, duration_ms=249, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 17:23:30], mode=BUILD, duration=0:00:00.588, duration_ms=588, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 17:24:10], mode=BUILD, duration=0:00:01.519, duration_ms=1519, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 17:24:11], mode=BUILD, duration=0:00:00.249, duration_ms=249, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 17:27:23], mode=BUILD, duration=0:00:01.543, duration_ms=1543, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 17:27:24], mode=BUILD, duration=0:00:00.264, duration_ms=264, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 17:27:42], mode=BUILD, duration=0:00:01.587, duration_ms=1587, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 17:27:42], mode=BUILD, duration=0:00:00.250, duration_ms=250, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 17:28:21], mode=WORKBENCH_START, duration=0:00:07.403, duration_ms=7403, data={}
+timestamp=[2024-04-18 17:28:21], mode=WORKBENCH_UI_INIT, duration=0:00:00.523, duration_ms=523, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,gomoku,gomoku_system,mb_usb_hdmi_top}
+timestamp=[2024-04-18 17:28:22], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.019, duration_ms=19, data={}
+timestamp=[2024-04-18 17:28:29], mode=BUILD, duration=0:00:00.240, duration_ms=240, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 17:28:29], mode=BUILD, duration=0:00:00.199, duration_ms=199, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 17:29:27], mode=BUILD, duration=0:00:01.032, duration_ms=1032, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 17:29:28], mode=BUILD, duration=0:00:00.141, duration_ms=141, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 17:30:19], mode=BUILD, duration=0:00:00.763, duration_ms=763, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 17:30:19], mode=BUILD, duration=0:00:00.199, duration_ms=199, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 17:30:55], mode=BUILD, duration=0:00:01.073, duration_ms=1073, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 17:30:56], mode=BUILD, duration=0:00:00.195, duration_ms=195, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 17:58:58], mode=BUILD, duration=0:00:00.844, duration_ms=844, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 17:59:56], mode=BUILD, duration=0:00:00.769, duration_ms=769, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:00:26], mode=BUILD, duration=0:00:01.091, duration_ms=1091, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:00:26], mode=BUILD, duration=0:00:00.146, duration_ms=146, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:02:25], mode=BUILD, duration=0:00:01.073, duration_ms=1073, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:02:25], mode=BUILD, duration=0:00:00.139, duration_ms=139, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:03:24], mode=BUILD, duration=0:00:00.757, duration_ms=757, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:03:24], mode=BUILD, duration=0:00:00.190, duration_ms=190, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:05:23], mode=BUILD, duration=0:00:01.079, duration_ms=1079, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:05:23], mode=BUILD, duration=0:00:00.136, duration_ms=136, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:06:15], mode=BUILD, duration=0:00:01.074, duration_ms=1074, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:06:16], mode=BUILD, duration=0:00:00.202, duration_ms=202, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:10:17], mode=BUILD, duration=0:00:00.403, duration_ms=403, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:10:26], mode=BUILD, duration=0:00:00.412, duration_ms=412, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:10:55], mode=BUILD, duration=0:00:01.039, duration_ms=1039, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:10:56], mode=BUILD, duration=0:00:00.206, duration_ms=206, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:13:14], mode=BUILD, duration=0:00:01.396, duration_ms=1396, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:13:15], mode=BUILD, duration=0:00:00.189, duration_ms=189, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:13:50], mode=BUILD, duration=0:00:01.104, duration_ms=1104, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:13:50], mode=BUILD, duration=0:00:00.199, duration_ms=199, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:15:34], mode=BUILD, duration=0:00:01.406, duration_ms=1406, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:15:35], mode=BUILD, duration=0:00:00.220, duration_ms=220, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:17:06], mode=BUILD, duration=0:00:01.095, duration_ms=1095, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:17:07], mode=BUILD, duration=0:00:00.203, duration_ms=203, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:18:06], mode=WORKBENCH_START, duration=0:00:07.413, duration_ms=7413, data={}
+timestamp=[2024-04-18 18:18:06], mode=WORKBENCH_UI_INIT, duration=0:00:00.659, duration_ms=659, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,gomoku,gomoku_system,mb_usb_hdmi_top}
+timestamp=[2024-04-18 18:18:07], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.021, duration_ms=21, data={}
+timestamp=[2024-04-18 18:18:37], mode=PLATFORM_GENERATION, duration=0:00:03.454, duration_ms=3454, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-18 18:18:37], mode=BUILD, duration=0:00:00.209, duration_ms=209, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-04-18 18:18:37], mode=BUILD, duration=0:00:00.227, duration_ms=227, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-18 18:18:55], mode=PLATFORM_GENERATION, duration=0:00:05.677, duration_ms=5677, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-18 18:18:58], mode=BUILD, duration=0:00:02.975, duration_ms=2975, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:18:59], mode=BUILD, duration=0:00:00.196, duration_ms=196, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:20:58], mode=BUILD, duration=0:00:01.389, duration_ms=1389, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:20:59], mode=BUILD, duration=0:00:00.206, duration_ms=206, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:21:51], mode=BUILD, duration=0:00:01.083, duration_ms=1083, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:21:52], mode=BUILD, duration=0:00:00.210, duration_ms=210, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:22:37], mode=BUILD, duration=0:00:01.142, duration_ms=1142, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:22:37], mode=BUILD, duration=0:00:00.228, duration_ms=228, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:23:21], mode=BUILD, duration=0:00:01.149, duration_ms=1149, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:23:21], mode=BUILD, duration=0:00:00.197, duration_ms=197, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:24:54], mode=BUILD, duration=0:00:01.487, duration_ms=1487, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:24:55], mode=BUILD, duration=0:00:00.201, duration_ms=201, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:26:01], mode=BUILD, duration=0:00:01.402, duration_ms=1402, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:26:02], mode=BUILD, duration=0:00:00.204, duration_ms=204, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:26:28], mode=BUILD, duration=0:00:01.151, duration_ms=1151, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:26:28], mode=BUILD, duration=0:00:00.189, duration_ms=189, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:27:22], mode=BUILD, duration=0:00:01.084, duration_ms=1084, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:27:23], mode=BUILD, duration=0:00:00.161, duration_ms=161, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:28:30], mode=BUILD, duration=0:00:01.085, duration_ms=1085, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:28:31], mode=BUILD, duration=0:00:00.143, duration_ms=143, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:29:45], mode=BUILD, duration=0:00:01.388, duration_ms=1388, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:29:45], mode=BUILD, duration=0:00:00.183, duration_ms=183, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:30:21], mode=BUILD, duration=0:00:01.083, duration_ms=1083, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:30:21], mode=BUILD, duration=0:00:00.201, duration_ms=201, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:31:28], mode=BUILD, duration=0:00:01.090, duration_ms=1090, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:31:28], mode=BUILD, duration=0:00:00.189, duration_ms=189, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:31:56], mode=BUILD, duration=0:00:01.096, duration_ms=1096, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:31:56], mode=BUILD, duration=0:00:00.213, duration_ms=213, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:32:51], mode=BUILD, duration=0:00:01.085, duration_ms=1085, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:32:52], mode=BUILD, duration=0:00:00.216, duration_ms=216, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:33:46], mode=BUILD, duration=0:00:01.103, duration_ms=1103, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:33:47], mode=BUILD, duration=0:00:00.160, duration_ms=160, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:34:31], mode=BUILD, duration=0:00:01.073, duration_ms=1073, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:34:31], mode=BUILD, duration=0:00:00.139, duration_ms=139, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:35:49], mode=BUILD, duration=0:00:01.391, duration_ms=1391, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:35:50], mode=BUILD, duration=0:00:00.199, duration_ms=199, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:40:18], mode=BUILD, duration=0:00:00.330, duration_ms=330, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 18:40:19], mode=BUILD, duration=0:00:00.247, duration_ms=247, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 19:17:51], mode=BUILD, duration=0:00:01.912, duration_ms=1912, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 19:17:51], mode=BUILD, duration=0:00:00.246, duration_ms=246, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 19:20:44], mode=BUILD, duration=0:00:02.039, duration_ms=2039, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 19:20:44], mode=BUILD, duration=0:00:00.252, duration_ms=252, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 19:22:53], mode=BUILD, duration=0:00:01.527, duration_ms=1527, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 19:22:54], mode=BUILD, duration=0:00:00.257, duration_ms=257, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 19:31:01], mode=BUILD, duration=0:00:01.008, duration_ms=1008, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 19:31:02], mode=BUILD, duration=0:00:00.200, duration_ms=200, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 19:32:31], mode=BUILD, duration=0:00:01.013, duration_ms=1013, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 19:32:31], mode=BUILD, duration=0:00:00.219, duration_ms=219, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 19:32:59], mode=BUILD, duration=0:00:01.011, duration_ms=1011, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 19:32:59], mode=BUILD, duration=0:00:00.134, duration_ms=134, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 19:33:15], mode=BUILD, duration=0:00:00.707, duration_ms=707, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 19:33:15], mode=BUILD, duration=0:00:00.193, duration_ms=193, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 19:33:53], mode=BUILD, duration=0:00:01.045, duration_ms=1045, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 19:33:53], mode=BUILD, duration=0:00:00.199, duration_ms=199, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 19:35:16], mode=BUILD, duration=0:00:01.274, duration_ms=1274, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 19:35:17], mode=BUILD, duration=0:00:00.203, duration_ms=203, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 19:39:00], mode=BUILD, duration=0:00:01.021, duration_ms=1021, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 19:39:00], mode=BUILD, duration=0:00:00.209, duration_ms=209, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 19:40:07], mode=BUILD, duration=0:00:01.013, duration_ms=1013, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 19:40:07], mode=BUILD, duration=0:00:00.194, duration_ms=194, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 19:40:34], mode=BUILD, duration=0:00:01.012, duration_ms=1012, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 19:40:34], mode=BUILD, duration=0:00:00.186, duration_ms=186, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 20:13:19], mode=BUILD, duration=0:00:00.405, duration_ms=405, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 20:13:47], mode=BUILD, duration=0:00:00.389, duration_ms=389, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 20:15:41], mode=BUILD, duration=0:00:01.405, duration_ms=1405, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 20:15:41], mode=BUILD, duration=0:00:00.187, duration_ms=187, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 20:15:51], mode=BUILD, duration=0:00:00.385, duration_ms=385, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 20:15:51], mode=BUILD, duration=0:00:00.233, duration_ms=233, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 20:16:08], mode=BUILD, duration=0:00:01.014, duration_ms=1014, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 20:16:08], mode=BUILD, duration=0:00:00.196, duration_ms=196, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 20:17:28], mode=BUILD, duration=0:00:01.015, duration_ms=1015, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 20:17:28], mode=BUILD, duration=0:00:00.197, duration_ms=197, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 20:18:00], mode=BUILD, duration=0:00:00.208, duration_ms=208, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 20:18:00], mode=BUILD, duration=0:00:00.190, duration_ms=190, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 20:19:31], mode=BUILD, duration=0:00:01.098, duration_ms=1098, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 20:19:32], mode=BUILD, duration=0:00:00.199, duration_ms=199, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 20:19:39], mode=BUILD, duration=0:00:00.204, duration_ms=204, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 20:19:40], mode=BUILD, duration=0:00:00.202, duration_ms=202, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 20:25:25], mode=BUILD, duration=0:00:01.073, duration_ms=1073, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 20:25:26], mode=BUILD, duration=0:00:00.215, duration_ms=215, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 20:35:59], mode=BUILD, duration=0:00:00.626, duration_ms=626, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 20:37:08], mode=BUILD, duration=0:00:01.523, duration_ms=1523, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 20:38:27], mode=BUILD, duration=0:00:01.786, duration_ms=1786, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 20:38:28], mode=BUILD, duration=0:00:00.254, duration_ms=254, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 20:39:32], mode=BUILD, duration=0:00:01.433, duration_ms=1433, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 20:39:33], mode=BUILD, duration=0:00:00.253, duration_ms=253, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 20:44:48], mode=BUILD, duration=0:00:01.770, duration_ms=1770, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 20:44:48], mode=BUILD, duration=0:00:00.268, duration_ms=268, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 20:51:07], mode=BUILD, duration=0:00:00.574, duration_ms=574, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 20:51:51], mode=BUILD, duration=0:00:01.818, duration_ms=1818, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 20:51:52], mode=BUILD, duration=0:00:00.260, duration_ms=260, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 20:52:59], mode=BUILD, duration=0:00:01.767, duration_ms=1767, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 20:53:00], mode=BUILD, duration=0:00:00.244, duration_ms=244, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 22:54:40], mode=WORKBENCH_START, duration=0:00:07.366, duration_ms=7366, data={}
+timestamp=[2024-04-18 22:54:41], mode=WORKBENCH_UI_INIT, duration=0:00:00.661, duration_ms=661, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,gomoku,gomoku_system,mb_usb_hdmi_top}
+timestamp=[2024-04-18 22:54:41], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.021, duration_ms=21, data={}
+timestamp=[2024-04-18 22:55:02], mode=PLATFORM_GENERATION, duration=0:00:03.199, duration_ms=3199, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-18 22:55:02], mode=BUILD, duration=0:00:00.190, duration_ms=190, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-04-18 22:55:03], mode=BUILD, duration=0:00:00.229, duration_ms=229, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-18 22:55:09], mode=PLATFORM_GENERATION, duration=0:00:05.211, duration_ms=5211, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-18 22:55:12], mode=BUILD, duration=0:00:03.175, duration_ms=3175, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-18 22:55:13], mode=BUILD, duration=0:00:00.208, duration_ms=208, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 10:55:08], mode=WORKBENCH_START, duration=0:00:06.804, duration_ms=6804, data={}
+timestamp=[2024-04-19 10:55:09], mode=WORKBENCH_UI_INIT, duration=0:00:00.527, duration_ms=527, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,gomoku,gomoku_system,mb_usb_hdmi_top}
+timestamp=[2024-04-19 10:55:09], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.017, duration_ms=17, data={}
+timestamp=[2024-04-19 10:55:50], mode=PLATFORM_GENERATION, duration=0:00:03.318, duration_ms=3318, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-19 10:55:50], mode=BUILD, duration=0:00:00.207, duration_ms=207, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-04-19 10:55:50], mode=BUILD, duration=0:00:00.200, duration_ms=200, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-19 10:56:07], mode=PLATFORM_GENERATION, duration=0:00:05.030, duration_ms=5030, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-19 10:56:09], mode=BUILD, duration=0:00:02.455, duration_ms=2455, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 10:56:10], mode=BUILD, duration=0:00:00.124, duration_ms=124, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 10:59:50], mode=BUILD, duration=0:00:00.576, duration_ms=576, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:00:35], mode=BUILD, duration=0:00:00.763, duration_ms=763, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:00:35], mode=BUILD, duration=0:00:00.151, duration_ms=151, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:01:45], mode=BUILD, duration=0:00:00.589, duration_ms=589, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:02:22], mode=BUILD, duration=0:00:00.571, duration_ms=571, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:05:06], mode=BUILD, duration=0:00:00.597, duration_ms=597, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:10:24], mode=BUILD, duration=0:00:00.777, duration_ms=777, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:10:25], mode=BUILD, duration=0:00:00.241, duration_ms=241, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:11:28], mode=BUILD, duration=0:00:00.759, duration_ms=759, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:11:28], mode=BUILD, duration=0:00:00.138, duration_ms=138, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:18:20], mode=BUILD, duration=0:00:00.331, duration_ms=331, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:19:06], mode=BUILD, duration=0:00:00.320, duration_ms=320, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:19:30], mode=BUILD, duration=0:00:00.326, duration_ms=326, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:19:49], mode=BUILD, duration=0:00:00.577, duration_ms=577, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:20:04], mode=BUILD, duration=0:00:00.322, duration_ms=322, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:20:31], mode=BUILD, duration=0:00:00.758, duration_ms=758, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:20:32], mode=BUILD, duration=0:00:00.129, duration_ms=129, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:20:48], mode=BUILD, duration=0:00:00.194, duration_ms=194, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:20:49], mode=BUILD, duration=0:00:00.129, duration_ms=129, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:21:44], mode=BUILD, duration=0:00:00.823, duration_ms=823, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:21:44], mode=BUILD, duration=0:00:00.127, duration_ms=127, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:22:10], mode=BUILD, duration=0:00:00.783, duration_ms=783, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:22:10], mode=BUILD, duration=0:00:00.131, duration_ms=131, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:22:49], mode=BUILD, duration=0:00:00.764, duration_ms=764, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:22:49], mode=BUILD, duration=0:00:00.126, duration_ms=126, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:23:29], mode=BUILD, duration=0:00:00.691, duration_ms=691, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:23:29], mode=BUILD, duration=0:00:00.128, duration_ms=128, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:24:35], mode=BUILD, duration=0:00:00.766, duration_ms=766, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:24:35], mode=BUILD, duration=0:00:00.112, duration_ms=112, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:25:29], mode=BUILD, duration=0:00:00.758, duration_ms=758, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:25:29], mode=BUILD, duration=0:00:00.126, duration_ms=126, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:26:51], mode=PLATFORM_GENERATION, duration=0:00:03.555, duration_ms=3555, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-19 11:26:51], mode=BUILD, duration=0:00:00.203, duration_ms=203, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-04-19 11:26:51], mode=BUILD, duration=0:00:00.186, duration_ms=186, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-19 11:26:59], mode=PLATFORM_GENERATION, duration=0:00:05.761, duration_ms=5761, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-19 11:27:01], mode=BUILD, duration=0:00:02.203, duration_ms=2203, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:27:02], mode=BUILD, duration=0:00:00.141, duration_ms=141, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:28:08], mode=BUILD, duration=0:00:00.776, duration_ms=776, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:28:08], mode=BUILD, duration=0:00:00.126, duration_ms=126, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:31:27], mode=BUILD, duration=0:00:00.763, duration_ms=763, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:31:28], mode=BUILD, duration=0:00:00.126, duration_ms=126, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:32:28], mode=BUILD, duration=0:00:00.707, duration_ms=707, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:32:28], mode=BUILD, duration=0:00:00.123, duration_ms=123, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:34:29], mode=BUILD, duration=0:00:00.710, duration_ms=710, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 11:34:30], mode=BUILD, duration=0:00:00.124, duration_ms=124, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 12:05:48], mode=BUILD, duration=0:00:01.803, duration_ms=1803, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 12:05:48], mode=BUILD, duration=0:00:00.244, duration_ms=244, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 12:06:41], mode=BUILD, duration=0:00:00.403, duration_ms=403, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 12:06:42], mode=BUILD, duration=0:00:00.243, duration_ms=243, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 12:08:59], mode=BUILD, duration=0:00:01.401, duration_ms=1401, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 12:09:00], mode=BUILD, duration=0:00:00.274, duration_ms=274, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 14:15:47], mode=BUILD, duration=0:00:00.846, duration_ms=846, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 14:15:47], mode=BUILD, duration=0:00:00.142, duration_ms=142, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 14:16:09], mode=BUILD, duration=0:00:00.209, duration_ms=209, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 14:16:09], mode=BUILD, duration=0:00:00.138, duration_ms=138, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 14:17:47], mode=BUILD, duration=0:00:00.833, duration_ms=833, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 14:17:47], mode=BUILD, duration=0:00:00.186, duration_ms=186, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 14:18:07], mode=BUILD, duration=0:00:00.206, duration_ms=206, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 14:18:07], mode=BUILD, duration=0:00:00.129, duration_ms=129, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 14:20:07], mode=BUILD, duration=0:00:00.825, duration_ms=825, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 14:20:08], mode=BUILD, duration=0:00:00.139, duration_ms=139, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 14:22:30], mode=BUILD, duration=0:00:00.885, duration_ms=885, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 14:22:31], mode=BUILD, duration=0:00:00.134, duration_ms=134, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 14:23:13], mode=BUILD, duration=0:00:00.841, duration_ms=841, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 14:23:13], mode=BUILD, duration=0:00:00.144, duration_ms=144, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 14:27:43], mode=BUILD, duration=0:00:00.846, duration_ms=846, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 14:27:43], mode=BUILD, duration=0:00:00.146, duration_ms=146, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 14:28:31], mode=BUILD, duration=0:00:00.887, duration_ms=887, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 14:28:31], mode=BUILD, duration=0:00:00.148, duration_ms=148, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 14:30:57], mode=BUILD, duration=0:00:00.831, duration_ms=831, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 14:30:57], mode=BUILD, duration=0:00:00.135, duration_ms=135, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 14:31:45], mode=BUILD, duration=0:00:00.269, duration_ms=269, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 14:31:45], mode=BUILD, duration=0:00:00.148, duration_ms=148, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 14:49:48], mode=WORKBENCH_START, duration=0:00:11.955, duration_ms=11955, data={}
+timestamp=[2024-04-19 14:49:49], mode=WORKBENCH_UI_INIT, duration=0:00:00.904, duration_ms=904, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,gomoku,gomoku_system,mb_usb_hdmi_top}
+timestamp=[2024-04-19 14:49:50], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.052, duration_ms=52, data={}
+timestamp=[2024-04-19 14:51:00], mode=BUILD, duration=0:00:00.397, duration_ms=397, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 14:51:01], mode=BUILD, duration=0:00:00.256, duration_ms=256, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 14:56:53], mode=WORKBENCH_START, duration=0:00:11.951, duration_ms=11951, data={}
+timestamp=[2024-04-19 14:56:54], mode=WORKBENCH_UI_INIT, duration=0:00:00.827, duration_ms=827, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,gomoku,gomoku_system,mb_usb_hdmi_top}
+timestamp=[2024-04-19 14:56:55], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.050, duration_ms=50, data={}
+timestamp=[2024-04-19 14:57:47], mode=BUILD, duration=0:00:01.261, duration_ms=1261, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 14:57:48], mode=BUILD, duration=0:00:00.271, duration_ms=271, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 15:20:44], mode=WORKBENCH_START, duration=0:00:07.731, duration_ms=7731, data={}
+timestamp=[2024-04-19 15:20:44], mode=WORKBENCH_UI_INIT, duration=0:00:00.442, duration_ms=442, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,gomoku,gomoku_system,mb_usb_hdmi_top}
+timestamp=[2024-04-19 15:20:45], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.029, duration_ms=29, data={}
+timestamp=[2024-04-19 15:37:45], mode=BUILD, duration=0:00:00.865, duration_ms=865, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 15:37:45], mode=BUILD, duration=0:00:00.139, duration_ms=139, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 15:38:16], mode=BUILD, duration=0:00:00.820, duration_ms=820, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 15:38:17], mode=BUILD, duration=0:00:00.121, duration_ms=121, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 15:39:27], mode=BUILD, duration=0:00:00.766, duration_ms=766, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 15:39:27], mode=BUILD, duration=0:00:00.123, duration_ms=123, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 15:40:30], mode=BUILD, duration=0:00:00.767, duration_ms=767, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 15:40:31], mode=BUILD, duration=0:00:00.133, duration_ms=133, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 15:43:06], mode=BUILD, duration=0:00:00.757, duration_ms=757, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 15:43:07], mode=BUILD, duration=0:00:00.127, duration_ms=127, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 15:52:02], mode=BUILD, duration=0:00:00.762, duration_ms=762, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 15:52:02], mode=BUILD, duration=0:00:00.112, duration_ms=112, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 15:55:05], mode=BUILD, duration=0:00:00.333, duration_ms=333, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 15:55:20], mode=BUILD, duration=0:00:01.021, duration_ms=1021, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 15:55:20], mode=BUILD, duration=0:00:00.127, duration_ms=127, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 15:59:01], mode=BUILD, duration=0:00:00.765, duration_ms=765, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 15:59:01], mode=BUILD, duration=0:00:00.123, duration_ms=123, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 16:06:06], mode=BUILD, duration=0:00:00.894, duration_ms=894, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 16:06:06], mode=BUILD, duration=0:00:00.161, duration_ms=161, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 16:17:34], mode=BUILD, duration=0:00:00.324, duration_ms=324, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 16:18:39], mode=BUILD, duration=0:00:00.330, duration_ms=330, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 16:19:23], mode=BUILD, duration=0:00:00.951, duration_ms=951, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 16:19:23], mode=BUILD, duration=0:00:00.129, duration_ms=129, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 16:21:16], mode=BUILD, duration=0:00:00.774, duration_ms=774, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 16:21:17], mode=BUILD, duration=0:00:00.129, duration_ms=129, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 16:29:13], mode=BUILD, duration=0:00:00.761, duration_ms=761, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 16:29:13], mode=BUILD, duration=0:00:00.137, duration_ms=137, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 16:49:41], mode=BUILD, duration=0:00:01.004, duration_ms=1004, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 16:49:42], mode=BUILD, duration=0:00:00.124, duration_ms=124, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 17:04:11], mode=BUILD, duration=0:00:00.849, duration_ms=849, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 17:04:11], mode=BUILD, duration=0:00:00.131, duration_ms=131, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 17:06:38], mode=BUILD, duration=0:00:00.889, duration_ms=889, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 17:06:38], mode=BUILD, duration=0:00:00.127, duration_ms=127, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 17:08:37], mode=BUILD, duration=0:00:00.902, duration_ms=902, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 17:08:38], mode=BUILD, duration=0:00:00.143, duration_ms=143, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 17:11:06], mode=BUILD, duration=0:00:00.404, duration_ms=404, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 17:11:18], mode=BUILD, duration=0:00:00.974, duration_ms=974, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 17:11:19], mode=BUILD, duration=0:00:00.193, duration_ms=193, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 17:13:05], mode=BUILD, duration=0:00:00.904, duration_ms=904, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 17:13:06], mode=BUILD, duration=0:00:00.138, duration_ms=138, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 17:14:13], mode=BUILD, duration=0:00:00.991, duration_ms=991, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 17:14:14], mode=BUILD, duration=0:00:00.142, duration_ms=142, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 17:14:54], mode=BUILD, duration=0:00:00.262, duration_ms=262, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 17:14:55], mode=BUILD, duration=0:00:00.154, duration_ms=154, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 17:33:08], mode=BUILD, duration=0:00:00.970, duration_ms=970, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 17:33:08], mode=BUILD, duration=0:00:00.153, duration_ms=153, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 19:52:32], mode=BUILD, duration=0:00:00.393, duration_ms=393, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 19:53:20], mode=BUILD, duration=0:00:00.987, duration_ms=987, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 19:53:20], mode=BUILD, duration=0:00:00.142, duration_ms=142, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 19:53:32], mode=BUILD, duration=0:00:00.289, duration_ms=289, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 19:53:33], mode=BUILD, duration=0:00:00.146, duration_ms=146, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 19:54:06], mode=BUILD, duration=0:00:00.886, duration_ms=886, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 19:54:06], mode=BUILD, duration=0:00:00.145, duration_ms=145, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 20:02:52], mode=BUILD, duration=0:00:00.960, duration_ms=960, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 20:02:52], mode=BUILD, duration=0:00:00.131, duration_ms=131, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 20:03:34], mode=BUILD, duration=0:00:00.266, duration_ms=266, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 20:03:35], mode=BUILD, duration=0:00:00.142, duration_ms=142, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 20:38:02], mode=BUILD, duration=0:00:01.039, duration_ms=1039, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 20:38:03], mode=BUILD, duration=0:00:00.145, duration_ms=145, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 20:41:39], mode=BUILD, duration=0:00:00.279, duration_ms=279, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 20:41:39], mode=BUILD, duration=0:00:00.162, duration_ms=162, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 20:52:10], mode=BUILD, duration=0:00:01.153, duration_ms=1153, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 20:52:11], mode=BUILD, duration=0:00:00.238, duration_ms=238, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 21:02:54], mode=BUILD, duration=0:00:01.035, duration_ms=1035, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 21:02:54], mode=BUILD, duration=0:00:00.120, duration_ms=120, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 21:05:35], mode=BUILD, duration=0:00:00.283, duration_ms=283, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 21:05:36], mode=BUILD, duration=0:00:00.139, duration_ms=139, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 21:09:39], mode=BUILD, duration=0:00:01.046, duration_ms=1046, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 21:09:39], mode=BUILD, duration=0:00:00.197, duration_ms=197, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 21:10:25], mode=BUILD, duration=0:00:00.284, duration_ms=284, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 21:10:25], mode=BUILD, duration=0:00:00.206, duration_ms=206, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 21:11:00], mode=BUILD, duration=0:00:01.092, duration_ms=1092, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 21:11:01], mode=BUILD, duration=0:00:00.191, duration_ms=191, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 21:12:21], mode=BUILD, duration=0:00:01.171, duration_ms=1171, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 21:12:21], mode=BUILD, duration=0:00:00.203, duration_ms=203, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 21:14:59], mode=BUILD, duration=0:00:00.401, duration_ms=401, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 21:15:27], mode=BUILD, duration=0:00:01.037, duration_ms=1037, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 21:15:28], mode=BUILD, duration=0:00:00.181, duration_ms=181, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 21:16:21], mode=BUILD, duration=0:00:01.070, duration_ms=1070, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 21:16:21], mode=BUILD, duration=0:00:00.217, duration_ms=217, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 21:19:56], mode=BUILD, duration=0:00:01.284, duration_ms=1284, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 21:19:57], mode=BUILD, duration=0:00:00.153, duration_ms=153, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 21:20:39], mode=PLATFORM_GENERATION, duration=0:00:04.964, duration_ms=4964, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-19 21:20:39], mode=BUILD, duration=0:00:00.270, duration_ms=270, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-04-19 21:20:39], mode=BUILD, duration=0:00:00.220, duration_ms=220, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-19 21:20:48], mode=PLATFORM_GENERATION, duration=0:00:05.734, duration_ms=5734, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-19 21:20:51], mode=BUILD, duration=0:00:02.675, duration_ms=2675, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 21:20:51], mode=BUILD, duration=0:00:00.214, duration_ms=214, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 21:20:55], mode=BUILD, duration=0:00:00.292, duration_ms=292, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 21:20:55], mode=BUILD, duration=0:00:00.205, duration_ms=205, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 22:07:25], mode=BUILD, duration=0:00:01.176, duration_ms=1176, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 22:07:25], mode=BUILD, duration=0:00:00.138, duration_ms=138, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 22:15:46], mode=BUILD, duration=0:00:01.111, duration_ms=1111, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 22:15:46], mode=BUILD, duration=0:00:00.204, duration_ms=204, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 22:15:59], mode=BUILD, duration=0:00:00.317, duration_ms=317, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 22:15:59], mode=BUILD, duration=0:00:00.226, duration_ms=226, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 22:20:03], mode=BUILD, duration=0:00:01.113, duration_ms=1113, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 22:20:04], mode=BUILD, duration=0:00:00.159, duration_ms=159, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 22:24:41], mode=BUILD, duration=0:00:01.103, duration_ms=1103, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-19 22:24:42], mode=BUILD, duration=0:00:00.158, duration_ms=158, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 10:28:35], mode=WORKBENCH_START, duration=0:00:07.054, duration_ms=7054, data={}
+timestamp=[2024-04-20 10:28:36], mode=WORKBENCH_UI_INIT, duration=0:00:00.544, duration_ms=544, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,gomoku,gomoku_system,mb_usb_hdmi_top}
+timestamp=[2024-04-20 10:28:36], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.016, duration_ms=16, data={}
+timestamp=[2024-04-20 11:25:35], mode=BUILD, duration=0:00:00.890, duration_ms=890, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 11:25:35], mode=BUILD, duration=0:00:00.152, duration_ms=152, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 11:27:17], mode=BUILD, duration=0:00:00.767, duration_ms=767, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 11:27:18], mode=BUILD, duration=0:00:00.142, duration_ms=142, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 11:31:26], mode=BUILD, duration=0:00:00.828, duration_ms=828, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 11:31:27], mode=BUILD, duration=0:00:00.135, duration_ms=135, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 11:38:47], mode=BUILD, duration=0:00:00.782, duration_ms=782, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 11:38:47], mode=BUILD, duration=0:00:00.123, duration_ms=123, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 11:41:23], mode=BUILD, duration=0:00:00.336, duration_ms=336, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 11:41:41], mode=BUILD, duration=0:00:00.785, duration_ms=785, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 11:41:42], mode=BUILD, duration=0:00:00.211, duration_ms=211, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 11:46:19], mode=BUILD, duration=0:00:00.707, duration_ms=707, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 11:46:19], mode=BUILD, duration=0:00:00.129, duration_ms=129, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 11:54:01], mode=BUILD, duration=0:00:00.314, duration_ms=314, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 11:54:18], mode=BUILD, duration=0:00:00.628, duration_ms=628, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 11:55:44], mode=BUILD, duration=0:00:01.016, duration_ms=1016, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 11:55:44], mode=BUILD, duration=0:00:00.122, duration_ms=122, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 11:57:45], mode=BUILD, duration=0:00:00.699, duration_ms=699, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 11:57:45], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 12:06:10], mode=BUILD, duration=0:00:00.692, duration_ms=692, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 12:06:10], mode=BUILD, duration=0:00:00.114, duration_ms=114, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 13:38:19], mode=BUILD, duration=0:00:00.947, duration_ms=947, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 13:38:19], mode=BUILD, duration=0:00:00.164, duration_ms=164, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 13:38:25], mode=BUILD, duration=0:00:00.186, duration_ms=186, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 13:38:25], mode=BUILD, duration=0:00:00.161, duration_ms=161, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 13:39:41], mode=BUILD, duration=0:00:00.753, duration_ms=753, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 13:39:41], mode=BUILD, duration=0:00:00.130, duration_ms=130, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 13:46:41], mode=BUILD, duration=0:00:00.709, duration_ms=709, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 13:46:41], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 13:48:35], mode=BUILD, duration=0:00:00.184, duration_ms=184, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 13:48:36], mode=BUILD, duration=0:00:00.141, duration_ms=141, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 13:51:59], mode=BUILD, duration=0:00:00.754, duration_ms=754, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 13:51:59], mode=BUILD, duration=0:00:00.128, duration_ms=128, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 14:26:10], mode=BUILD, duration=0:00:00.705, duration_ms=705, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 14:26:10], mode=BUILD, duration=0:00:00.125, duration_ms=125, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 14:34:26], mode=BUILD, duration=0:00:00.918, duration_ms=918, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 14:34:27], mode=BUILD, duration=0:00:00.157, duration_ms=157, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 14:37:51], mode=BUILD, duration=0:00:00.841, duration_ms=841, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 14:37:52], mode=BUILD, duration=0:00:00.148, duration_ms=148, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 14:53:44], mode=BUILD, duration=0:00:00.892, duration_ms=892, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 14:53:45], mode=BUILD, duration=0:00:00.156, duration_ms=156, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 14:53:56], mode=BUILD, duration=0:00:00.982, duration_ms=982, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 14:53:56], mode=BUILD, duration=0:00:00.148, duration_ms=148, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 14:54:56], mode=WORKBENCH_START, duration=0:00:07.126, duration_ms=7126, data={}
+timestamp=[2024-04-20 14:54:57], mode=WORKBENCH_UI_INIT, duration=0:00:00.505, duration_ms=505, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,gomoku,gomoku_system,mb_usb_hdmi_top}
+timestamp=[2024-04-20 14:54:57], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.018, duration_ms=18, data={}
+timestamp=[2024-04-20 14:55:38], mode=BUILD, duration=0:00:00.254, duration_ms=254, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 14:55:39], mode=BUILD, duration=0:00:00.161, duration_ms=161, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 15:00:19], mode=BUILD, duration=0:00:00.204, duration_ms=204, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 15:00:19], mode=BUILD, duration=0:00:00.123, duration_ms=123, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 15:07:37], mode=BUILD, duration=0:00:00.761, duration_ms=761, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 15:07:37], mode=BUILD, duration=0:00:00.136, duration_ms=136, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 15:20:34], mode=BUILD, duration=0:00:00.779, duration_ms=779, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 15:20:34], mode=BUILD, duration=0:00:00.147, duration_ms=147, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 15:27:17], mode=BUILD, duration=0:00:00.689, duration_ms=689, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 15:27:17], mode=BUILD, duration=0:00:00.140, duration_ms=140, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 15:27:29], mode=BUILD, duration=0:00:00.699, duration_ms=699, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 15:27:29], mode=BUILD, duration=0:00:00.126, duration_ms=126, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 15:28:20], mode=WORKBENCH_START, duration=0:00:07.048, duration_ms=7048, data={}
+timestamp=[2024-04-20 15:28:21], mode=WORKBENCH_UI_INIT, duration=0:00:00.583, duration_ms=583, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,gomoku,gomoku_system,mb_usb_hdmi_top}
+timestamp=[2024-04-20 15:28:21], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.025, duration_ms=25, data={}
+timestamp=[2024-04-20 15:28:38], mode=BUILD, duration=0:00:00.229, duration_ms=229, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 15:28:38], mode=BUILD, duration=0:00:00.148, duration_ms=148, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 15:41:45], mode=BUILD, duration=0:00:00.780, duration_ms=780, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 15:41:45], mode=BUILD, duration=0:00:00.133, duration_ms=133, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 15:59:22], mode=BUILD, duration=0:00:00.759, duration_ms=759, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 15:59:22], mode=BUILD, duration=0:00:00.125, duration_ms=125, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 16:05:51], mode=BUILD, duration=0:00:00.785, duration_ms=785, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 16:05:51], mode=BUILD, duration=0:00:00.124, duration_ms=124, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 16:06:06], mode=BUILD, duration=0:00:00.202, duration_ms=202, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 16:06:07], mode=BUILD, duration=0:00:00.129, duration_ms=129, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 16:11:29], mode=BUILD, duration=0:00:00.775, duration_ms=775, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 16:11:29], mode=BUILD, duration=0:00:00.124, duration_ms=124, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 16:18:51], mode=BUILD, duration=0:00:00.821, duration_ms=821, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 16:18:51], mode=BUILD, duration=0:00:00.125, duration_ms=125, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 17:12:57], mode=BUILD, duration=0:00:01.163, duration_ms=1163, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 17:12:58], mode=BUILD, duration=0:00:00.135, duration_ms=135, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 17:15:40], mode=BUILD, duration=0:00:00.896, duration_ms=896, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 17:15:41], mode=BUILD, duration=0:00:00.141, duration_ms=141, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 17:19:28], mode=BUILD, duration=0:00:00.882, duration_ms=882, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 17:19:29], mode=BUILD, duration=0:00:00.200, duration_ms=200, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 17:22:05], mode=BUILD, duration=0:00:00.910, duration_ms=910, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 17:22:06], mode=BUILD, duration=0:00:00.154, duration_ms=154, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 17:23:21], mode=BUILD, duration=0:00:00.884, duration_ms=884, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 17:23:21], mode=BUILD, duration=0:00:00.125, duration_ms=125, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 17:53:52], mode=WORKBENCH_START, duration=0:00:07.453, duration_ms=7453, data={}
+timestamp=[2024-04-20 17:53:53], mode=WORKBENCH_UI_INIT, duration=0:00:00.519, duration_ms=519, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,gomoku,gomoku_system,mb_usb_hdmi_top}
+timestamp=[2024-04-20 17:53:53], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.020, duration_ms=20, data={}
+timestamp=[2024-04-20 17:54:41], mode=PLATFORM_GENERATION, duration=0:00:03.250, duration_ms=3250, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-20 17:54:41], mode=BUILD, duration=0:00:00.202, duration_ms=202, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-04-20 17:54:41], mode=BUILD, duration=0:00:00.215, duration_ms=215, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-20 17:54:50], mode=PLATFORM_GENERATION, duration=0:00:05.241, duration_ms=5241, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-20 17:54:52], mode=BUILD, duration=0:00:02.175, duration_ms=2175, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 17:54:53], mode=BUILD, duration=0:00:00.132, duration_ms=132, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 18:08:40], mode=WORKBENCH_START, duration=0:00:06.773, duration_ms=6773, data={}
+timestamp=[2024-04-20 18:08:40], mode=WORKBENCH_UI_INIT, duration=0:00:00.582, duration_ms=582, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,gomoku,gomoku_system,mb_usb_hdmi_top}
+timestamp=[2024-04-20 18:08:41], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.015, duration_ms=15, data={}
+timestamp=[2024-04-20 18:09:15], mode=PLATFORM_GENERATION, duration=0:00:03.239, duration_ms=3239, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-20 18:09:15], mode=BUILD, duration=0:00:00.207, duration_ms=207, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-04-20 18:09:15], mode=BUILD, duration=0:00:00.218, duration_ms=218, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-20 18:09:23], mode=PLATFORM_GENERATION, duration=0:00:05.042, duration_ms=5042, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-20 18:09:26], mode=BUILD, duration=0:00:02.402, duration_ms=2402, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 18:09:27], mode=BUILD, duration=0:00:00.130, duration_ms=130, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 18:18:08], mode=PLATFORM_GENERATION, duration=0:00:03.118, duration_ms=3118, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-20 18:18:08], mode=BUILD, duration=0:00:00.241, duration_ms=241, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-04-20 18:18:08], mode=BUILD, duration=0:00:00.210, duration_ms=210, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-20 18:18:16], mode=PLATFORM_GENERATION, duration=0:00:04.992, duration_ms=4992, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-20 18:18:18], mode=BUILD, duration=0:00:02.161, duration_ms=2161, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 18:18:19], mode=BUILD, duration=0:00:00.140, duration_ms=140, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 18:18:20], mode=BUILD, duration=0:00:00.190, duration_ms=190, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 18:18:21], mode=BUILD, duration=0:00:00.149, duration_ms=149, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 18:31:11], mode=PLATFORM_GENERATION, duration=0:00:04.251, duration_ms=4251, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-20 18:31:11], mode=BUILD, duration=0:00:00.192, duration_ms=192, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-04-20 18:31:11], mode=BUILD, duration=0:00:00.183, duration_ms=183, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-20 18:31:18], mode=PLATFORM_GENERATION, duration=0:00:05.001, duration_ms=5001, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-20 18:31:21], mode=BUILD, duration=0:00:02.104, duration_ms=2104, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 18:31:21], mode=BUILD, duration=0:00:00.135, duration_ms=135, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 18:31:25], mode=BUILD, duration=0:00:00.201, duration_ms=201, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 18:31:26], mode=BUILD, duration=0:00:00.112, duration_ms=112, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 18:43:09], mode=PLATFORM_GENERATION, duration=0:00:04.433, duration_ms=4433, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-20 18:43:09], mode=BUILD, duration=0:00:00.195, duration_ms=195, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-04-20 18:43:09], mode=BUILD, duration=0:00:00.200, duration_ms=200, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-20 18:43:17], mode=PLATFORM_GENERATION, duration=0:00:04.905, duration_ms=4905, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-20 18:43:19], mode=BUILD, duration=0:00:01.838, duration_ms=1838, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 18:43:19], mode=BUILD, duration=0:00:00.155, duration_ms=155, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 18:58:02], mode=PLATFORM_GENERATION, duration=0:00:04.211, duration_ms=4211, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-20 18:58:02], mode=BUILD, duration=0:00:00.191, duration_ms=191, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-04-20 18:58:02], mode=BUILD, duration=0:00:00.186, duration_ms=186, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-20 18:58:11], mode=PLATFORM_GENERATION, duration=0:00:04.869, duration_ms=4869, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-20 18:58:13], mode=BUILD, duration=0:00:01.661, duration_ms=1661, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 18:58:13], mode=BUILD, duration=0:00:00.122, duration_ms=122, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 20:28:51], mode=PLATFORM_GENERATION, duration=0:00:04.168, duration_ms=4168, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-20 20:28:51], mode=BUILD, duration=0:00:00.199, duration_ms=199, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-04-20 20:28:51], mode=BUILD, duration=0:00:00.198, duration_ms=198, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-20 20:28:59], mode=PLATFORM_GENERATION, duration=0:00:04.752, duration_ms=4752, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-20 20:29:02], mode=BUILD, duration=0:00:01.904, duration_ms=1904, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 20:29:02], mode=BUILD, duration=0:00:00.119, duration_ms=119, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 21:31:42], mode=WORKBENCH_START, duration=0:00:06.863, duration_ms=6863, data={}
+timestamp=[2024-04-20 21:31:43], mode=WORKBENCH_UI_INIT, duration=0:00:00.568, duration_ms=568, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,gomoku,gomoku_system,mb_usb_hdmi_top}
+timestamp=[2024-04-20 21:31:43], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.019, duration_ms=19, data={}
+timestamp=[2024-04-20 21:51:21], mode=PLATFORM_GENERATION, duration=0:00:04.924, duration_ms=4924, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-20 21:51:22], mode=BUILD, duration=0:00:00.612, duration_ms=612, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-04-20 21:51:22], mode=BUILD, duration=0:00:00.320, duration_ms=320, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-20 21:51:30], mode=PLATFORM_GENERATION, duration=0:00:05.315, duration_ms=5315, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-20 21:51:32], mode=BUILD, duration=0:00:02.438, duration_ms=2438, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 21:51:33], mode=BUILD, duration=0:00:00.135, duration_ms=135, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 21:51:42], mode=BUILD, duration=0:00:00.304, duration_ms=304, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 21:51:42], mode=BUILD, duration=0:00:00.126, duration_ms=126, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 22:04:57], mode=BUILD, duration=0:00:00.824, duration_ms=824, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 22:04:57], mode=BUILD, duration=0:00:00.126, duration_ms=126, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 22:08:51], mode=BUILD, duration=0:00:00.186, duration_ms=186, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 22:08:52], mode=BUILD, duration=0:00:00.124, duration_ms=124, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 22:15:34], mode=BUILD, duration=0:00:01.006, duration_ms=1006, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 22:15:35], mode=BUILD, duration=0:00:00.129, duration_ms=129, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 22:20:17], mode=BUILD, duration=0:00:00.840, duration_ms=840, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 22:20:17], mode=BUILD, duration=0:00:00.124, duration_ms=124, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 22:25:03], mode=BUILD, duration=0:00:00.311, duration_ms=311, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 22:25:30], mode=BUILD, duration=0:00:00.828, duration_ms=828, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 22:25:58], mode=BUILD, duration=0:00:00.759, duration_ms=759, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 22:29:37], mode=BUILD, duration=0:00:00.826, duration_ms=826, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 22:29:38], mode=BUILD, duration=0:00:00.124, duration_ms=124, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 22:30:40], mode=BUILD, duration=0:00:00.893, duration_ms=893, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 22:30:41], mode=BUILD, duration=0:00:00.123, duration_ms=123, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 23:01:17], mode=PLATFORM_GENERATION, duration=0:00:03.153, duration_ms=3153, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-20 23:01:17], mode=BUILD, duration=0:00:00.195, duration_ms=195, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-04-20 23:01:18], mode=BUILD, duration=0:00:00.186, duration_ms=186, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-20 23:01:26], mode=PLATFORM_GENERATION, duration=0:00:05.073, duration_ms=5073, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-20 23:01:28], mode=BUILD, duration=0:00:02.032, duration_ms=2032, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 23:01:28], mode=BUILD, duration=0:00:00.133, duration_ms=133, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 23:03:20], mode=WORKBENCH_START, duration=0:00:06.467, duration_ms=6467, data={}
+timestamp=[2024-04-20 23:03:21], mode=WORKBENCH_UI_INIT, duration=0:00:00.525, duration_ms=525, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,gomoku,gomoku_system,mb_usb_hdmi_top}
+timestamp=[2024-04-20 23:03:21], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.017, duration_ms=17, data={}
+timestamp=[2024-04-20 23:03:48], mode=PLATFORM_GENERATION, duration=0:00:05.253, duration_ms=5253, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-20 23:03:50], mode=BUILD, duration=0:00:01.914, duration_ms=1914, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 23:03:51], mode=BUILD, duration=0:00:00.156, duration_ms=156, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 23:04:22], mode=PLATFORM_GENERATION, duration=0:00:03.236, duration_ms=3236, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-20 23:04:23], mode=BUILD, duration=0:00:00.190, duration_ms=190, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-04-20 23:04:23], mode=BUILD, duration=0:00:00.202, duration_ms=202, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-20 23:04:31], mode=PLATFORM_GENERATION, duration=0:00:05.152, duration_ms=5152, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-20 23:04:33], mode=BUILD, duration=0:00:01.980, duration_ms=1980, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 23:04:33], mode=BUILD, duration=0:00:00.126, duration_ms=126, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 23:17:41], mode=PLATFORM_GENERATION, duration=0:00:04.091, duration_ms=4091, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-20 23:17:42], mode=BUILD, duration=0:00:00.206, duration_ms=206, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-04-20 23:17:42], mode=BUILD, duration=0:00:00.189, duration_ms=189, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-20 23:18:29], mode=PLATFORM_GENERATION, duration=0:00:02.511, duration_ms=2511, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-20 23:18:29], mode=BUILD, duration=0:00:00.198, duration_ms=198, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-04-20 23:18:29], mode=BUILD, duration=0:00:00.200, duration_ms=200, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-20 23:18:37], mode=PLATFORM_GENERATION, duration=0:00:04.911, duration_ms=4911, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-20 23:18:39], mode=BUILD, duration=0:00:02.103, duration_ms=2103, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 23:18:39], mode=BUILD, duration=0:00:00.130, duration_ms=130, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 23:18:42], mode=BUILD, duration=0:00:00.186, duration_ms=186, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-20 23:18:42], mode=BUILD, duration=0:00:00.113, duration_ms=113, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 19:33:13], mode=WORKBENCH_START, duration=0:00:07.764, duration_ms=7764, data={}
+timestamp=[2024-04-22 19:33:13], mode=WORKBENCH_UI_INIT, duration=0:00:00.554, duration_ms=554, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,gomoku,gomoku_system,mb_usb_hdmi_top}
+timestamp=[2024-04-22 19:33:14], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.024, duration_ms=24, data={}
+timestamp=[2024-04-22 19:33:53], mode=PLATFORM_GENERATION, duration=0:00:03.343, duration_ms=3343, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-22 19:33:54], mode=BUILD, duration=0:00:00.209, duration_ms=209, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-04-22 19:33:54], mode=BUILD, duration=0:00:00.214, duration_ms=214, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-22 19:34:02], mode=PLATFORM_GENERATION, duration=0:00:05.323, duration_ms=5323, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-22 19:34:05], mode=BUILD, duration=0:00:02.237, duration_ms=2237, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 19:34:05], mode=BUILD, duration=0:00:00.120, duration_ms=120, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 19:48:49], mode=WORKBENCH_START, duration=0:00:07.082, duration_ms=7082, data={}
+timestamp=[2024-04-22 19:48:49], mode=WORKBENCH_UI_INIT, duration=0:00:00.527, duration_ms=527, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,gomoku,gomoku_system,mb_usb_hdmi_top}
+timestamp=[2024-04-22 19:48:50], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.012, duration_ms=12, data={}
+timestamp=[2024-04-22 19:49:49], mode=PLATFORM_GENERATION, duration=0:00:03.419, duration_ms=3419, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-22 19:49:50], mode=BUILD, duration=0:00:00.192, duration_ms=192, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-04-22 19:49:50], mode=BUILD, duration=0:00:00.200, duration_ms=200, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-22 19:49:58], mode=PLATFORM_GENERATION, duration=0:00:05.225, duration_ms=5225, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-22 19:50:01], mode=BUILD, duration=0:00:02.175, duration_ms=2175, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 19:50:01], mode=BUILD, duration=0:00:00.131, duration_ms=131, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 19:50:03], mode=BUILD, duration=0:00:00.203, duration_ms=203, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 19:50:03], mode=BUILD, duration=0:00:00.123, duration_ms=123, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 20:24:58], mode=PLATFORM_GENERATION, duration=0:00:06.163, duration_ms=6163, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-22 20:25:00], mode=BUILD, duration=0:00:01.776, duration_ms=1776, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 20:25:01], mode=BUILD, duration=0:00:00.131, duration_ms=131, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 20:25:23], mode=PLATFORM_GENERATION, duration=0:00:03.108, duration_ms=3108, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-22 20:25:23], mode=BUILD, duration=0:00:00.192, duration_ms=192, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-04-22 20:25:23], mode=BUILD, duration=0:00:00.203, duration_ms=203, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-22 20:25:31], mode=PLATFORM_GENERATION, duration=0:00:05.039, duration_ms=5039, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-22 20:25:33], mode=BUILD, duration=0:00:02.028, duration_ms=2028, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 20:25:34], mode=BUILD, duration=0:00:00.130, duration_ms=130, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 20:26:08], mode=BUILD, duration=0:00:00.189, duration_ms=189, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 20:26:08], mode=BUILD, duration=0:00:00.126, duration_ms=126, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 20:51:07], mode=PLATFORM_GENERATION, duration=0:00:06.067, duration_ms=6067, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-22 20:51:07], mode=BUILD, duration=0:00:00.320, duration_ms=320, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-04-22 20:51:07], mode=BUILD, duration=0:00:00.311, duration_ms=311, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-22 20:51:18], mode=PLATFORM_GENERATION, duration=0:00:07.515, duration_ms=7515, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-22 20:51:21], mode=BUILD, duration=0:00:03.055, duration_ms=3055, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 20:51:22], mode=BUILD, duration=0:00:00.250, duration_ms=250, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 21:11:10], mode=PLATFORM_GENERATION, duration=0:00:04.633, duration_ms=4633, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-22 21:11:11], mode=BUILD, duration=0:00:00.305, duration_ms=305, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-04-22 21:11:11], mode=BUILD, duration=0:00:00.321, duration_ms=321, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-22 21:11:23], mode=PLATFORM_GENERATION, duration=0:00:07.905, duration_ms=7905, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-22 21:11:27], mode=BUILD, duration=0:00:03.093, duration_ms=3093, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 21:11:27], mode=BUILD, duration=0:00:00.258, duration_ms=258, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 21:31:55], mode=PLATFORM_GENERATION, duration=0:00:04.118, duration_ms=4118, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-22 21:31:55], mode=BUILD, duration=0:00:00.187, duration_ms=187, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-04-22 21:31:56], mode=BUILD, duration=0:00:00.188, duration_ms=188, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-22 21:32:04], mode=PLATFORM_GENERATION, duration=0:00:04.958, duration_ms=4958, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-22 21:32:06], mode=BUILD, duration=0:00:01.634, duration_ms=1634, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 21:32:06], mode=BUILD, duration=0:00:00.114, duration_ms=114, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 21:33:29], mode=BUILD, duration=0:00:00.755, duration_ms=755, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 21:33:29], mode=BUILD, duration=0:00:00.128, duration_ms=128, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 21:41:29], mode=BUILD, duration=0:00:00.690, duration_ms=690, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 21:41:30], mode=BUILD, duration=0:00:00.127, duration_ms=127, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 21:42:05], mode=BUILD, duration=0:00:00.817, duration_ms=817, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 21:42:05], mode=BUILD, duration=0:00:00.127, duration_ms=127, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 21:45:56], mode=BUILD, duration=0:00:00.827, duration_ms=827, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 21:45:57], mode=BUILD, duration=0:00:00.129, duration_ms=129, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 21:47:36], mode=BUILD, duration=0:00:00.290, duration_ms=290, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 21:47:37], mode=BUILD, duration=0:00:00.125, duration_ms=125, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 21:57:31], mode=BUILD, duration=0:00:00.822, duration_ms=822, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 21:57:31], mode=BUILD, duration=0:00:00.127, duration_ms=127, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 22:11:59], mode=BUILD, duration=0:00:00.759, duration_ms=759, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 22:12:00], mode=BUILD, duration=0:00:00.129, duration_ms=129, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 22:12:03], mode=BUILD, duration=0:00:00.185, duration_ms=185, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 22:12:04], mode=BUILD, duration=0:00:00.135, duration_ms=135, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 22:13:32], mode=BUILD, duration=0:00:00.767, duration_ms=767, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 22:13:32], mode=BUILD, duration=0:00:00.116, duration_ms=116, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 22:16:19], mode=BUILD, duration=0:00:00.747, duration_ms=747, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 22:16:20], mode=BUILD, duration=0:00:00.128, duration_ms=128, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 22:18:21], mode=BUILD, duration=0:00:00.839, duration_ms=839, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 22:18:22], mode=BUILD, duration=0:00:00.129, duration_ms=129, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 22:21:30], mode=BUILD, duration=0:00:00.760, duration_ms=760, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 22:21:30], mode=BUILD, duration=0:00:00.129, duration_ms=129, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 22:22:13], mode=BUILD, duration=0:00:00.751, duration_ms=751, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 22:22:14], mode=BUILD, duration=0:00:00.130, duration_ms=130, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 22:54:51], mode=BUILD, duration=0:00:00.195, duration_ms=195, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 22:54:51], mode=BUILD, duration=0:00:00.123, duration_ms=123, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 22:55:20], mode=PLATFORM_GENERATION, duration=0:00:04.595, duration_ms=4595, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-22 22:55:20], mode=BUILD, duration=0:00:00.193, duration_ms=193, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-04-22 22:55:20], mode=BUILD, duration=0:00:00.199, duration_ms=199, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-22 22:55:27], mode=PLATFORM_GENERATION, duration=0:00:05.202, duration_ms=5202, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-22 22:55:29], mode=BUILD, duration=0:00:01.962, duration_ms=1962, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 22:55:29], mode=BUILD, duration=0:00:00.122, duration_ms=122, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 22:56:51], mode=PLATFORM_GENERATION, duration=0:00:03.361, duration_ms=3361, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-22 22:56:51], mode=BUILD, duration=0:00:00.191, duration_ms=191, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-04-22 22:56:51], mode=BUILD, duration=0:00:00.185, duration_ms=185, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-22 22:56:59], mode=PLATFORM_GENERATION, duration=0:00:05.297, duration_ms=5297, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-22 22:57:01], mode=BUILD, duration=0:00:01.954, duration_ms=1954, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 22:57:02], mode=BUILD, duration=0:00:00.150, duration_ms=150, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 23:00:15], mode=BUILD, duration=0:00:00.192, duration_ms=192, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 23:00:15], mode=BUILD, duration=0:00:00.126, duration_ms=126, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 23:00:42], mode=PLATFORM_GENERATION, duration=0:00:05.276, duration_ms=5276, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-22 23:00:43], mode=BUILD, duration=0:00:01.600, duration_ms=1600, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 23:00:44], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 23:13:23], mode=PLATFORM_GENERATION, duration=0:00:05.479, duration_ms=5479, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-22 23:13:23], mode=BUILD, duration=0:00:00.195, duration_ms=195, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-04-22 23:13:23], mode=BUILD, duration=0:00:00.195, duration_ms=195, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-22 23:13:34], mode=PLATFORM_GENERATION, duration=0:00:05.136, duration_ms=5136, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-22 23:13:37], mode=BUILD, duration=0:00:01.970, duration_ms=1970, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 23:13:37], mode=BUILD, duration=0:00:00.125, duration_ms=125, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 23:13:42], mode=BUILD, duration=0:00:00.200, duration_ms=200, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 23:13:43], mode=BUILD, duration=0:00:00.116, duration_ms=116, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 23:43:49], mode=PLATFORM_GENERATION, duration=0:00:05.830, duration_ms=5830, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-22 23:43:49], mode=BUILD, duration=0:00:00.199, duration_ms=199, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-04-22 23:43:49], mode=BUILD, duration=0:00:00.202, duration_ms=202, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-22 23:43:58], mode=PLATFORM_GENERATION, duration=0:00:05.146, duration_ms=5146, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-22 23:44:00], mode=BUILD, duration=0:00:02.019, duration_ms=2019, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-22 23:44:00], mode=BUILD, duration=0:00:00.130, duration_ms=130, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 14:29:56], mode=WORKBENCH_START, duration=0:00:07.927, duration_ms=7927, data={}
+timestamp=[2024-04-24 14:29:57], mode=WORKBENCH_UI_INIT, duration=0:00:00.546, duration_ms=546, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,gomoku,gomoku_system,mb_usb_hdmi_top}
+timestamp=[2024-04-24 14:29:57], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.023, duration_ms=23, data={}
+timestamp=[2024-04-24 14:30:30], mode=PLATFORM_GENERATION, duration=0:00:03.301, duration_ms=3301, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-24 14:30:31], mode=BUILD, duration=0:00:00.201, duration_ms=201, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-04-24 14:30:31], mode=BUILD, duration=0:00:00.199, duration_ms=199, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-24 14:30:39], mode=PLATFORM_GENERATION, duration=0:00:05.181, duration_ms=5181, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-24 14:30:42], mode=BUILD, duration=0:00:02.184, duration_ms=2184, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 14:30:42], mode=BUILD, duration=0:00:00.131, duration_ms=131, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 14:36:27], mode=PLATFORM_GENERATION, duration=0:00:02.185, duration_ms=2185, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-24 14:36:27], mode=BUILD, duration=0:00:00.861, duration_ms=861, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 14:36:28], mode=BUILD, duration=0:00:00.145, duration_ms=145, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 14:40:06], mode=BUILD, duration=0:00:00.699, duration_ms=699, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 14:40:06], mode=BUILD, duration=0:00:00.135, duration_ms=135, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 14:42:14], mode=BUILD, duration=0:00:00.693, duration_ms=693, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 14:42:14], mode=BUILD, duration=0:00:00.129, duration_ms=129, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 14:47:59], mode=BUILD, duration=0:00:00.820, duration_ms=820, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 14:47:59], mode=BUILD, duration=0:00:00.138, duration_ms=138, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 14:49:50], mode=BUILD, duration=0:00:00.778, duration_ms=778, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 14:49:50], mode=BUILD, duration=0:00:00.127, duration_ms=127, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 14:56:17], mode=BUILD, duration=0:00:01.022, duration_ms=1022, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 14:56:17], mode=BUILD, duration=0:00:00.124, duration_ms=124, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 14:56:57], mode=BUILD, duration=0:00:00.212, duration_ms=212, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 14:56:58], mode=BUILD, duration=0:00:00.124, duration_ms=124, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 14:57:25], mode=WORKBENCH_START, duration=0:00:06.950, duration_ms=6950, data={}
+timestamp=[2024-04-24 14:57:25], mode=WORKBENCH_UI_INIT, duration=0:00:00.540, duration_ms=540, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,gomoku,gomoku_system,mb_usb_hdmi_top}
+timestamp=[2024-04-24 14:57:26], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.031, duration_ms=31, data={}
+timestamp=[2024-04-24 14:57:48], mode=BUILD, duration=0:00:00.284, duration_ms=284, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 14:57:48], mode=BUILD, duration=0:00:00.138, duration_ms=138, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 14:59:25], mode=BUILD, duration=0:00:00.733, duration_ms=733, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 14:59:25], mode=BUILD, duration=0:00:00.149, duration_ms=149, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 15:01:13], mode=BUILD, duration=0:00:00.809, duration_ms=809, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 15:01:14], mode=BUILD, duration=0:00:00.148, duration_ms=148, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 15:02:49], mode=BUILD, duration=0:00:00.702, duration_ms=702, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 15:02:50], mode=BUILD, duration=0:00:00.125, duration_ms=125, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 15:06:24], mode=BUILD, duration=0:00:00.907, duration_ms=907, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 15:06:25], mode=BUILD, duration=0:00:00.205, duration_ms=205, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 15:09:22], mode=BUILD, duration=0:00:00.784, duration_ms=784, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 15:09:22], mode=BUILD, duration=0:00:00.128, duration_ms=128, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 15:29:54], mode=PLATFORM_GENERATION, duration=0:00:04.397, duration_ms=4397, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-24 15:29:55], mode=BUILD, duration=0:00:00.218, duration_ms=218, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-04-24 15:29:55], mode=BUILD, duration=0:00:00.199, duration_ms=199, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-24 15:30:03], mode=PLATFORM_GENERATION, duration=0:00:05.149, duration_ms=5149, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-24 15:30:05], mode=BUILD, duration=0:00:02.191, duration_ms=2191, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 15:30:06], mode=BUILD, duration=0:00:00.144, duration_ms=144, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 15:37:51], mode=BUILD, duration=0:00:00.836, duration_ms=836, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 15:37:51], mode=BUILD, duration=0:00:00.138, duration_ms=138, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 15:45:04], mode=BUILD, duration=0:00:00.703, duration_ms=703, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 15:45:04], mode=BUILD, duration=0:00:00.137, duration_ms=137, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 15:56:14], mode=BUILD, duration=0:00:00.781, duration_ms=781, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 15:56:14], mode=BUILD, duration=0:00:00.125, duration_ms=125, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 16:11:25], mode=BUILD, duration=0:00:00.209, duration_ms=209, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 16:11:25], mode=BUILD, duration=0:00:00.132, duration_ms=132, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 20:21:06], mode=WORKBENCH_START, duration=0:00:08.161, duration_ms=8161, data={}
+timestamp=[2024-04-24 20:21:07], mode=WORKBENCH_UI_INIT, duration=0:00:00.509, duration_ms=509, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,gomoku,gomoku_system,mb_usb_hdmi_top}
+timestamp=[2024-04-24 20:21:07], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.021, duration_ms=21, data={}
+timestamp=[2024-04-24 20:23:30], mode=BUILD, duration=0:00:01.015, duration_ms=1015, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 20:23:31], mode=BUILD, duration=0:00:00.140, duration_ms=140, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 20:25:25], mode=BUILD, duration=0:00:00.724, duration_ms=724, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-24 20:25:26], mode=BUILD, duration=0:00:00.129, duration_ms=129, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-25 11:39:41], mode=WORKBENCH_START, duration=0:00:08.375, duration_ms=8375, data={}
+timestamp=[2024-04-25 11:39:41], mode=WORKBENCH_UI_INIT, duration=0:00:00.643, duration_ms=643, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,gomoku,gomoku_system,mb_usb_hdmi_top}
+timestamp=[2024-04-25 11:39:41], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.048, duration_ms=48, data={}
+timestamp=[2024-04-25 16:03:17], mode=WORKBENCH_START, duration=0:00:07.569, duration_ms=7569, data={}
+timestamp=[2024-04-25 16:03:18], mode=WORKBENCH_UI_INIT, duration=0:00:00.566, duration_ms=566, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,gomoku,gomoku_system,mb_usb_hdmi_top}
+timestamp=[2024-04-25 16:03:18], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.022, duration_ms=22, data={}
+timestamp=[2024-04-25 16:33:36], mode=PLATFORM_GENERATION, duration=0:00:04.245, duration_ms=4245, data={name=mb_usb_hdmi_top}
+timestamp=[2024-04-25 16:33:36], mode=BUILD, duration=0:00:00.406, duration_ms=406, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-25 16:33:57], mode=BUILD, duration=0:00:00.388, duration_ms=388, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-25 16:35:22], mode=BUILD, duration=0:00:01.077, duration_ms=1077, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-25 16:35:22], mode=BUILD, duration=0:00:00.140, duration_ms=140, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-25 16:41:48], mode=BUILD, duration=0:00:00.859, duration_ms=859, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-25 16:41:48], mode=BUILD, duration=0:00:00.130, duration_ms=130, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-25 16:42:39], mode=BUILD, duration=0:00:00.936, duration_ms=936, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-25 16:42:40], mode=BUILD, duration=0:00:00.134, duration_ms=134, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-25 16:43:14], mode=BUILD, duration=0:00:00.961, duration_ms=961, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-25 16:43:14], mode=BUILD, duration=0:00:00.129, duration_ms=129, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-25 16:47:43], mode=BUILD, duration=0:00:00.814, duration_ms=814, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-25 16:47:44], mode=BUILD, duration=0:00:00.129, duration_ms=129, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-25 16:51:09], mode=BUILD, duration=0:00:00.790, duration_ms=790, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-25 16:51:10], mode=BUILD, duration=0:00:00.126, duration_ms=126, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-25 16:52:03], mode=BUILD, duration=0:00:00.828, duration_ms=828, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-25 16:52:03], mode=BUILD, duration=0:00:00.138, duration_ms=138, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-25 16:55:42], mode=BUILD, duration=0:00:00.979, duration_ms=979, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-04-25 16:55:42], mode=BUILD, duration=0:00:00.122, duration_ms=122, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-25 17:24:33], mode=WORKBENCH_START, duration=0:00:07.310, duration_ms=7310, data={}
+timestamp=[2024-04-25 17:24:33], mode=WORKBENCH_UI_INIT, duration=0:00:00.623, duration_ms=623, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,gomoku,gomoku_system,mb_usb_hdmi_top}
+timestamp=[2024-04-25 17:24:34], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.029, duration_ms=29, data={}
+timestamp=[2024-05-03 09:42:54], mode=WORKBENCH_START, duration=0:00:07.592, duration_ms=7592, data={}
+timestamp=[2024-05-03 09:42:55], mode=WORKBENCH_UI_INIT, duration=0:00:00.572, duration_ms=572, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,gomoku,gomoku_system,mb_usb_hdmi_top}
+timestamp=[2024-05-03 09:42:55], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.066, duration_ms=66, data={}
+timestamp=[2024-05-03 10:12:55], mode=WORKBENCH_START, duration=0:00:11.589, duration_ms=11589, data={}
+timestamp=[2024-05-03 10:12:56], mode=WORKBENCH_UI_INIT, duration=0:00:01.069, duration_ms=1069, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,gomoku,gomoku_system,mb_usb_hdmi_top}
+timestamp=[2024-05-03 10:12:57], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.071, duration_ms=71, data={}
+timestamp=[2024-05-03 10:13:10], mode=PLATFORM_GENERATION, duration=0:00:07.452, duration_ms=7452, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 10:13:11], mode=BUILD, duration=0:00:00.323, duration_ms=323, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 10:13:13], mode=BUILD, duration=0:00:00.295, duration_ms=295, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 10:34:58], mode=WORKBENCH_START, duration=0:00:07.308, duration_ms=7308, data={}
+timestamp=[2024-05-03 10:34:59], mode=WORKBENCH_UI_INIT, duration=0:00:00.580, duration_ms=580, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,gomoku,gomoku_system,mb_usb_hdmi_top}
+timestamp=[2024-05-03 10:34:59], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.038, duration_ms=38, data={}
+timestamp=[2024-05-03 11:11:13], mode=BUILD, duration=0:00:00.515, duration_ms=515, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 11:13:16], mode=BUILD, duration=0:00:02.702, duration_ms=2702, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 11:13:17], mode=BUILD, duration=0:00:00.207, duration_ms=207, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 11:20:27], mode=BUILD, duration=0:00:00.385, duration_ms=385, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 11:20:43], mode=BUILD, duration=0:00:01.275, duration_ms=1275, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 11:20:43], mode=BUILD, duration=0:00:00.192, duration_ms=192, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 11:21:59], mode=BUILD, duration=0:00:00.974, duration_ms=974, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 11:22:00], mode=BUILD, duration=0:00:00.201, duration_ms=201, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 11:27:38], mode=BUILD, duration=0:00:00.972, duration_ms=972, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 11:27:39], mode=BUILD, duration=0:00:00.136, duration_ms=136, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 11:32:25], mode=BUILD, duration=0:00:00.952, duration_ms=952, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 11:32:25], mode=BUILD, duration=0:00:00.169, duration_ms=169, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 11:36:02], mode=BUILD, duration=0:00:00.884, duration_ms=884, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 11:36:03], mode=BUILD, duration=0:00:00.140, duration_ms=140, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 11:36:40], mode=BUILD, duration=0:00:00.961, duration_ms=961, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 11:36:40], mode=BUILD, duration=0:00:00.150, duration_ms=150, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 11:37:10], mode=BUILD, duration=0:00:00.968, duration_ms=968, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 11:37:11], mode=BUILD, duration=0:00:00.202, duration_ms=202, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 11:47:42], mode=BUILD, duration=0:00:00.910, duration_ms=910, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 11:47:43], mode=BUILD, duration=0:00:00.153, duration_ms=153, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 11:52:20], mode=BUILD, duration=0:00:00.964, duration_ms=964, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 11:52:20], mode=BUILD, duration=0:00:00.143, duration_ms=143, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 12:19:17], mode=PLATFORM_GENERATION, duration=0:00:05.110, duration_ms=5110, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 12:19:17], mode=BUILD, duration=0:00:00.209, duration_ms=209, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 12:19:17], mode=BUILD, duration=0:00:00.263, duration_ms=263, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 12:19:38], mode=PLATFORM_GENERATION, duration=0:00:09.897, duration_ms=9897, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 12:19:41], mode=BUILD, duration=0:00:03.099, duration_ms=3099, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 12:19:42], mode=BUILD, duration=0:00:00.149, duration_ms=149, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 12:20:07], mode=BUILD, duration=0:00:00.233, duration_ms=233, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 12:20:07], mode=BUILD, duration=0:00:00.231, duration_ms=231, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 13:33:28], mode=PLATFORM_GENERATION, duration=0:00:05.198, duration_ms=5198, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 13:33:28], mode=BUILD, duration=0:00:00.199, duration_ms=199, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 13:33:28], mode=BUILD, duration=0:00:00.195, duration_ms=195, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 13:33:47], mode=PLATFORM_GENERATION, duration=0:00:02.915, duration_ms=2915, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 13:33:47], mode=BUILD, duration=0:00:00.209, duration_ms=209, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 13:33:47], mode=BUILD, duration=0:00:00.215, duration_ms=215, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 13:33:56], mode=PLATFORM_GENERATION, duration=0:00:08.898, duration_ms=8898, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 13:33:59], mode=BUILD, duration=0:00:02.418, duration_ms=2418, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 13:34:00], mode=BUILD, duration=0:00:00.195, duration_ms=195, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 13:49:16], mode=BUILD, duration=0:00:00.674, duration_ms=674, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 13:49:37], mode=BUILD, duration=0:00:01.727, duration_ms=1727, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 13:49:37], mode=BUILD, duration=0:00:00.266, duration_ms=266, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 13:50:34], mode=BUILD, duration=0:00:01.735, duration_ms=1735, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 13:50:35], mode=BUILD, duration=0:00:00.272, duration_ms=272, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 13:50:39], mode=BUILD, duration=0:00:00.355, duration_ms=355, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 13:50:40], mode=BUILD, duration=0:00:00.265, duration_ms=265, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 13:53:27], mode=BUILD, duration=0:00:01.666, duration_ms=1666, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 13:53:28], mode=BUILD, duration=0:00:00.275, duration_ms=275, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:00:35], mode=BUILD, duration=0:00:01.819, duration_ms=1819, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:00:36], mode=BUILD, duration=0:00:00.282, duration_ms=282, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:01:21], mode=BUILD, duration=0:00:00.352, duration_ms=352, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:01:21], mode=BUILD, duration=0:00:00.269, duration_ms=269, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:03:18], mode=BUILD, duration=0:00:01.613, duration_ms=1613, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:03:19], mode=BUILD, duration=0:00:00.268, duration_ms=268, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:04:03], mode=BUILD, duration=0:00:01.683, duration_ms=1683, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:04:04], mode=BUILD, duration=0:00:00.273, duration_ms=273, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:07:29], mode=BUILD, duration=0:00:01.617, duration_ms=1617, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:07:30], mode=BUILD, duration=0:00:00.261, duration_ms=261, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:12:36], mode=BUILD, duration=0:00:02.116, duration_ms=2116, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:12:37], mode=BUILD, duration=0:00:00.285, duration_ms=285, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:13:46], mode=BUILD, duration=0:00:01.652, duration_ms=1652, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:13:47], mode=BUILD, duration=0:00:00.279, duration_ms=279, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:15:59], mode=BUILD, duration=0:00:01.671, duration_ms=1671, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:16:00], mode=BUILD, duration=0:00:00.269, duration_ms=269, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:19:23], mode=BUILD, duration=0:00:01.665, duration_ms=1665, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:19:24], mode=BUILD, duration=0:00:00.267, duration_ms=267, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:20:31], mode=BUILD, duration=0:00:01.790, duration_ms=1790, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:20:32], mode=BUILD, duration=0:00:00.275, duration_ms=275, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:25:11], mode=BUILD, duration=0:00:02.172, duration_ms=2172, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:25:12], mode=BUILD, duration=0:00:00.280, duration_ms=280, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:26:24], mode=BUILD, duration=0:00:02.157, duration_ms=2157, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:26:25], mode=BUILD, duration=0:00:00.259, duration_ms=259, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:31:07], mode=BUILD, duration=0:00:01.726, duration_ms=1726, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:31:08], mode=BUILD, duration=0:00:00.273, duration_ms=273, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:32:38], mode=BUILD, duration=0:00:01.564, duration_ms=1564, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:32:39], mode=BUILD, duration=0:00:00.277, duration_ms=277, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:35:23], mode=BUILD, duration=0:00:01.656, duration_ms=1656, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:35:24], mode=BUILD, duration=0:00:00.260, duration_ms=260, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:36:36], mode=BUILD, duration=0:00:01.652, duration_ms=1652, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:36:37], mode=BUILD, duration=0:00:00.269, duration_ms=269, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:37:53], mode=BUILD, duration=0:00:01.614, duration_ms=1614, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:37:54], mode=BUILD, duration=0:00:00.280, duration_ms=280, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:47:52], mode=BUILD, duration=0:00:01.654, duration_ms=1654, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:47:53], mode=BUILD, duration=0:00:00.260, duration_ms=260, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:49:33], mode=BUILD, duration=0:00:00.602, duration_ms=602, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:50:11], mode=BUILD, duration=0:00:00.597, duration_ms=597, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:50:20], mode=BUILD, duration=0:00:01.662, duration_ms=1662, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 14:50:21], mode=BUILD, duration=0:00:00.253, duration_ms=253, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 15:00:31], mode=BUILD, duration=0:00:01.028, duration_ms=1028, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 15:00:32], mode=BUILD, duration=0:00:00.214, duration_ms=214, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 15:02:38], mode=BUILD, duration=0:00:01.023, duration_ms=1023, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 15:02:38], mode=BUILD, duration=0:00:00.209, duration_ms=209, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 15:09:39], mode=BUILD, duration=0:00:01.023, duration_ms=1023, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 15:09:40], mode=BUILD, duration=0:00:00.204, duration_ms=204, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 15:12:53], mode=BUILD, duration=0:00:01.025, duration_ms=1025, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 15:12:54], mode=BUILD, duration=0:00:00.148, duration_ms=148, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 15:14:29], mode=BUILD, duration=0:00:00.941, duration_ms=941, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 15:14:29], mode=BUILD, duration=0:00:00.216, duration_ms=216, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 15:16:20], mode=BUILD, duration=0:00:01.022, duration_ms=1022, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 15:16:20], mode=BUILD, duration=0:00:00.163, duration_ms=163, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 15:17:22], mode=BUILD, duration=0:00:01.016, duration_ms=1016, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 15:17:23], mode=BUILD, duration=0:00:00.152, duration_ms=152, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 15:18:16], mode=BUILD, duration=0:00:01.086, duration_ms=1086, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 15:18:17], mode=BUILD, duration=0:00:00.146, duration_ms=146, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 15:21:23], mode=BUILD, duration=0:00:00.982, duration_ms=982, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 15:21:23], mode=BUILD, duration=0:00:00.204, duration_ms=204, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 15:47:13], mode=BUILD, duration=0:00:01.112, duration_ms=1112, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 15:47:13], mode=BUILD, duration=0:00:00.164, duration_ms=164, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 15:52:13], mode=BUILD, duration=0:00:01.101, duration_ms=1101, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 15:52:13], mode=BUILD, duration=0:00:00.223, duration_ms=223, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 15:58:15], mode=PLATFORM_GENERATION, duration=0:00:04.814, duration_ms=4814, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 15:58:15], mode=BUILD, duration=0:00:00.269, duration_ms=269, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 15:58:15], mode=BUILD, duration=0:00:00.217, duration_ms=217, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 15:58:30], mode=PLATFORM_GENERATION, duration=0:00:10.049, duration_ms=10049, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 15:58:33], mode=BUILD, duration=0:00:02.605, duration_ms=2605, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 15:58:33], mode=BUILD, duration=0:00:00.211, duration_ms=211, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 16:16:26], mode=PLATFORM_GENERATION, duration=0:00:04.883, duration_ms=4883, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 16:16:26], mode=BUILD, duration=0:00:00.270, duration_ms=270, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 16:16:27], mode=BUILD, duration=0:00:00.236, duration_ms=236, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 16:16:54], mode=PLATFORM_GENERATION, duration=0:00:10.386, duration_ms=10386, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 16:16:57], mode=BUILD, duration=0:00:02.594, duration_ms=2594, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 16:16:58], mode=BUILD, duration=0:00:00.218, duration_ms=218, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 16:36:18], mode=PLATFORM_GENERATION, duration=0:00:11.766, duration_ms=11766, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 16:36:21], mode=BUILD, duration=0:00:02.310, duration_ms=2310, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 16:36:22], mode=BUILD, duration=0:00:00.211, duration_ms=211, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 16:38:21], mode=BUILD, duration=0:00:01.089, duration_ms=1089, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 16:38:22], mode=BUILD, duration=0:00:00.150, duration_ms=150, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 17:02:23], mode=WORKBENCH_START, duration=0:00:07.861, duration_ms=7861, data={}
+timestamp=[2024-05-03 17:02:24], mode=WORKBENCH_UI_INIT, duration=0:00:00.553, duration_ms=553, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,gomoku,gomoku_system,mb_usb_hdmi_top}
+timestamp=[2024-05-03 17:02:24], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.024, duration_ms=24, data={}
+timestamp=[2024-05-03 17:02:57], mode=PLATFORM_GENERATION, duration=0:00:03.868, duration_ms=3868, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 17:02:58], mode=BUILD, duration=0:00:00.313, duration_ms=313, data={name=gomoku, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 17:02:58], mode=BUILD, duration=0:00:00.321, duration_ms=321, data={name=gomoku_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-03 17:03:16], mode=PLATFORM_GENERATION, duration=0:00:15.674, duration_ms=15674, data={name=mb_usb_hdmi_top}
+timestamp=[2024-05-03 17:03:20], mode=BUILD, duration=0:00:03.329, duration_ms=3329, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 17:03:21], mode=BUILD, duration=0:00:00.209, duration_ms=209, data={name=gomoku_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 17:06:31], mode=BUILD, duration=0:00:01.163, duration_ms=1163, data={name=gomoku, configuration=Debug, clean_build=false}
+timestamp=[2024-05-03 17:06:32], mode=BUILD, duration=0:00:00.174, duration_ms=174, data={name=gomoku_system, configuration=Debug, clean_build=false}

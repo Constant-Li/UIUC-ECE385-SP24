@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed Apr 17 17:30:19 2024
+# Process ID: 43576
+# Current directory: G:/VivadoProject/gomoku/gomoku.runs/mb_usb_ilmb_v10_0_synth_1
+# Command line: vivado.exe -log mb_usb_ilmb_v10_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mb_usb_ilmb_v10_0.tcl
+# Log file: G:/VivadoProject/gomoku/gomoku.runs/mb_usb_ilmb_v10_0_synth_1/mb_usb_ilmb_v10_0.vds
+# Journal file: G:/VivadoProject/gomoku/gomoku.runs/mb_usb_ilmb_v10_0_synth_1\vivado.jou
+# Running On: LAPTOP-QDR62OIO, OS: Windows, CPU Frequency: 2208 MHz, CPU Physical cores: 8, Host memory: 17009 MB
+#-----------------------------------------------------------
+source mb_usb_ilmb_v10_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 372.016 ; gain = 61.590
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Constant/Desktop/RD_hdmi_ip2020/hdmi_tx_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/Xilinx/Vivado/2022.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mb_usb_ilmb_v10_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 8b859a7611e3417d to dir: G:/VivadoProject/gomoku/gomoku.runs/mb_usb_ilmb_v10_0_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file g:/VivadoProject/gomoku/gomoku.cache/ip/2022.2/8/b/8b859a7611e3417d/mb_usb_dlmb_v10_0.dcp to G:/VivadoProject/gomoku/gomoku.runs/mb_usb_ilmb_v10_0_synth_1/mb_usb_ilmb_v10_0.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file g:/VivadoProject/gomoku/gomoku.cache/ip/2022.2/8/b/8b859a7611e3417d/mb_usb_dlmb_v10_0_sim_netlist.v to G:/VivadoProject/gomoku/gomoku.runs/mb_usb_ilmb_v10_0_synth_1/mb_usb_ilmb_v10_0_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file g:/VivadoProject/gomoku/gomoku.cache/ip/2022.2/8/b/8b859a7611e3417d/mb_usb_dlmb_v10_0_sim_netlist.vhdl to G:/VivadoProject/gomoku/gomoku.runs/mb_usb_ilmb_v10_0_synth_1/mb_usb_ilmb_v10_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file g:/VivadoProject/gomoku/gomoku.cache/ip/2022.2/8/b/8b859a7611e3417d/mb_usb_dlmb_v10_0_stub.v to G:/VivadoProject/gomoku/gomoku.runs/mb_usb_ilmb_v10_0_synth_1/mb_usb_ilmb_v10_0_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file g:/VivadoProject/gomoku/gomoku.cache/ip/2022.2/8/b/8b859a7611e3417d/mb_usb_dlmb_v10_0_stub.vhdl to G:/VivadoProject/gomoku/gomoku.runs/mb_usb_ilmb_v10_0_synth_1/mb_usb_ilmb_v10_0_stub.vhdl.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP mb_usb_ilmb_v10_0, cache-ID = 8b859a7611e3417d.
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 17 17:30:30 2024...

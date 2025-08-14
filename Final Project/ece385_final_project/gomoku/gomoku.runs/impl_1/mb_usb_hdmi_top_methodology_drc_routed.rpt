@@ -1,0 +1,1993 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Fri May  3 17:00:36 2024
+| Host         : LAPTOP-QDR62OIO running 64-bit major release  (build 9200)
+| Command      : report_methodology -file mb_usb_hdmi_top_methodology_drc_routed.rpt -pb mb_usb_hdmi_top_methodology_drc_routed.pb -rpx mb_usb_hdmi_top_methodology_drc_routed.rpx
+| Design       : mb_usb_hdmi_top
+| Device       : xc7s50csga324-1
+| Speed File   : -1
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 386
++-----------+------------------+--------------------------------------------------------+------------+
+| Rule      | Severity         | Description                                            | Violations |
++-----------+------------------+--------------------------------------------------------+------------+
+| TIMING-4  | Critical Warning | Invalid primary clock redefinition on a clock tree     | 1          |
+| TIMING-6  | Critical Warning | No common primary clock between related clocks         | 2          |
+| TIMING-7  | Critical Warning | No common node between related clocks                  | 2          |
+| TIMING-27 | Critical Warning | Invalid primary clock on hierarchical pin              | 1          |
+| DPIR-1    | Warning          | Asynchronous driver check                              | 3          |
+| LUTAR-1   | Warning          | LUT drives async reset alert                           | 4          |
+| TIMING-9  | Warning          | Unknown CDC Logic                                      | 1          |
+| TIMING-16 | Warning          | Large setup violation                                  | 75         |
+| TIMING-18 | Warning          | Missing input or output delay                          | 9          |
+| TIMING-20 | Warning          | Non-clocked latch                                      | 286        |
+| XDCC-7    | Warning          | Scoped Clock constraint overwritten on the same source | 1          |
+| LATCH-1   | Advisory         | Existing latches in the design                         | 1          |
++-----------+------------------+--------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-4#1 Critical Warning
+Invalid primary clock redefinition on a clock tree  
+Invalid clock redefinition on a clock tree. The primary clock mb_block/hdmi_text_controller_0/inst/clk_wiz/inst/clk_in1 is defined downstream of clock clk_out1_mb_usb_clk_wiz_1_0_1 and overrides its insertion delay and/or waveform definition
+Related violations: <none>
+
+TIMING-6#1 Critical Warning
+No common primary clock between related clocks  
+The clocks clk_out1_mb_usb_clk_wiz_1_0_1 and clk_out1_clk_wiz_0_1 are related (timed together) but they have no common primary clock. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clk_out1_mb_usb_clk_wiz_1_0_1] -to [get_clocks clk_out1_clk_wiz_0_1]
+Related violations: <none>
+
+TIMING-6#2 Critical Warning
+No common primary clock between related clocks  
+The clocks clk_out1_mb_usb_clk_wiz_1_0_1 and clk_out2_clk_wiz_0_1 are related (timed together) but they have no common primary clock. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clk_out1_mb_usb_clk_wiz_1_0_1] -to [get_clocks clk_out2_clk_wiz_0_1]
+Related violations: <none>
+
+TIMING-7#1 Critical Warning
+No common node between related clocks  
+The clocks clk_out1_mb_usb_clk_wiz_1_0_1 and clk_out1_clk_wiz_0_1 are related (timed together) but they have no common node. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clk_out1_mb_usb_clk_wiz_1_0_1] -to [get_clocks clk_out1_clk_wiz_0_1]
+Related violations: <none>
+
+TIMING-7#2 Critical Warning
+No common node between related clocks  
+The clocks clk_out1_mb_usb_clk_wiz_1_0_1 and clk_out2_clk_wiz_0_1 are related (timed together) but they have no common node. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clk_out1_mb_usb_clk_wiz_1_0_1] -to [get_clocks clk_out2_clk_wiz_0_1]
+Related violations: <none>
+
+TIMING-27#1 Critical Warning
+Invalid primary clock on hierarchical pin  
+A primary clock mb_block/hdmi_text_controller_0/inst/clk_wiz/inst/clk_in1 is created on an inappropriate internal pin mb_block/hdmi_text_controller_0/inst/clk_wiz/inst/clk_in1. It is not recommended to create a primary clock on a hierarchical pin when its driver pin has a fanout connected to multiple clock pins
+Related violations: <none>
+
+DPIR-1#1 Warning
+Asynchronous driver check  
+DSP mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr0 input pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr0/A[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#2 Warning
+Asynchronous driver check  
+DSP mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_press0 input pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_press0/A[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#3 Warning
+Asynchronous driver check  
+DSP mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr0 input pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr0/C[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell mb_block/hdmi_text_controller_0/inst/vga_to_hdmi/inst/encr/oserdes_m_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) mb_block/hdmi_text_controller_0/inst/vga_to_hdmi/inst/encg/dout_reg[9]/CLR,
+mb_block/hdmi_text_controller_0/inst/vga_to_hdmi/inst/encr/cnt_reg[1]/CLR,
+mb_block/hdmi_text_controller_0/inst/vga_to_hdmi/inst/encr/cnt_reg[2]/CLR,
+mb_block/hdmi_text_controller_0/inst/vga_to_hdmi/inst/encr/cnt_reg[3]/CLR,
+mb_block/hdmi_text_controller_0/inst/vga_to_hdmi/inst/encr/cnt_reg[4]/CLR,
+mb_block/hdmi_text_controller_0/inst/vga_to_hdmi/inst/encr/dout_reg[0]/CLR,
+mb_block/hdmi_text_controller_0/inst/vga_to_hdmi/inst/encr/dout_reg[1]/CLR,
+mb_block/hdmi_text_controller_0/inst/vga_to_hdmi/inst/encr/dout_reg[2]/CLR,
+mb_block/hdmi_text_controller_0/inst/vga_to_hdmi/inst/encr/dout_reg[3]/CLR,
+mb_block/hdmi_text_controller_0/inst/vga_to_hdmi/inst/encr/dout_reg[4]/CLR,
+mb_block/hdmi_text_controller_0/inst/vga_to_hdmi/inst/encr/dout_reg[5]/CLR,
+mb_block/hdmi_text_controller_0/inst/vga_to_hdmi/inst/encr/dout_reg[6]/CLR,
+mb_block/hdmi_text_controller_0/inst/vga_to_hdmi/inst/encr/dout_reg[7]/CLR,
+mb_block/hdmi_text_controller_0/inst/vga_to_hdmi/inst/encr/dout_reg[8]/CLR,
+mb_block/hdmi_text_controller_0/inst/vga_to_hdmi/inst/encr/dout_reg[9]/CLR
+ (the first 15 of 42 listed). The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#2 Warning
+LUT drives async reset alert  
+LUT cell mb_block/mdm_1/U0/MDM_Core_I1/JTAG_CONTROL_I/sel_n_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) mb_block/mdm_1/U0/MDM_Core_I1/JTAG_CONTROL_I/sel_n_reg/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#3 Warning
+LUT drives async reset alert  
+LUT cell mb_block/microblaze_0/U0/MicroBlaze_Core_I/Area.Core/Implement_Debug_Logic.Master_Core.Debug_Area/Serial_Dbg_Intf.force_stop_cmd_rst_i_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) mb_block/microblaze_0/U0/MicroBlaze_Core_I/Area.Core/Implement_Debug_Logic.Master_Core.Debug_Area/Serial_Dbg_Intf.force_stop_TClk_reg/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#4 Warning
+LUT drives async reset alert  
+LUT cell mb_block/microblaze_0/U0/MicroBlaze_Core_I/Area.Core/Implement_Debug_Logic.Master_Core.Debug_Area/Serial_Dbg_Intf.normal_stop_cmd_rst_i_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) mb_block/microblaze_0/U0/MicroBlaze_Core_I/Area.Core/Implement_Debug_Logic.Master_Core.Debug_Area/Serial_Dbg_Intf.normal_stop_TClk_reg/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+TIMING-9#1 Warning
+Unknown CDC Logic  
+One or more asynchronous Clock Domain Crossing has been detected between 2 clock domains through a set_false_path or a set_clock_groups or set_max_delay -datapath_only constraint but no double-registers logic synchronizer has been found on the side of the capture clock. It is recommended to run report_cdc for a complete and detailed CDC coverage. Please consider using XPM_CDC to avoid Critical severities
+Related violations: <none>
+
+TIMING-16#1 Warning
+Large setup violation  
+There is a large setup violation of -1.079 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[0]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#2 Warning
+Large setup violation  
+There is a large setup violation of -1.079 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[3]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#3 Warning
+Large setup violation  
+There is a large setup violation of -1.123 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[17]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#4 Warning
+Large setup violation  
+There is a large setup violation of -1.123 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[18]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#5 Warning
+Large setup violation  
+There is a large setup violation of -1.123 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[19]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#6 Warning
+Large setup violation  
+There is a large setup violation of -1.123 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[1]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#7 Warning
+Large setup violation  
+There is a large setup violation of -1.123 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[20]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#8 Warning
+Large setup violation  
+There is a large setup violation of -1.128 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[11]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#9 Warning
+Large setup violation  
+There is a large setup violation of -1.128 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[13]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#10 Warning
+Large setup violation  
+There is a large setup violation of -1.128 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[14]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#11 Warning
+Large setup violation  
+There is a large setup violation of -1.128 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[15]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#12 Warning
+Large setup violation  
+There is a large setup violation of -1.128 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[16]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#13 Warning
+Large setup violation  
+There is a large setup violation of -1.128 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[9]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#14 Warning
+Large setup violation  
+There is a large setup violation of -1.145 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_60hz_reg[10]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#15 Warning
+Large setup violation  
+There is a large setup violation of -1.145 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_60hz_reg[11]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#16 Warning
+Large setup violation  
+There is a large setup violation of -1.145 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_60hz_reg[12]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#17 Warning
+Large setup violation  
+There is a large setup violation of -1.145 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_60hz_reg[17]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#18 Warning
+Large setup violation  
+There is a large setup violation of -1.145 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_60hz_reg[18]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#19 Warning
+Large setup violation  
+There is a large setup violation of -1.145 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_60hz_reg[19]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#20 Warning
+Large setup violation  
+There is a large setup violation of -1.145 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_60hz_reg[20]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#21 Warning
+Large setup violation  
+There is a large setup violation of -1.145 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_60hz_reg[6]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#22 Warning
+Large setup violation  
+There is a large setup violation of -1.145 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_60hz_reg[8]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#23 Warning
+Large setup violation  
+There is a large setup violation of -1.145 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_60hz_reg[9]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#24 Warning
+Large setup violation  
+There is a large setup violation of -1.147 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[10]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#25 Warning
+Large setup violation  
+There is a large setup violation of -1.147 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[12]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#26 Warning
+Large setup violation  
+There is a large setup violation of -1.147 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[2]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#27 Warning
+Large setup violation  
+There is a large setup violation of -1.147 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[4]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#28 Warning
+Large setup violation  
+There is a large setup violation of -1.147 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[5]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#29 Warning
+Large setup violation  
+There is a large setup violation of -1.147 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[6]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#30 Warning
+Large setup violation  
+There is a large setup violation of -1.147 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[7]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#31 Warning
+Large setup violation  
+There is a large setup violation of -1.147 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[8]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#32 Warning
+Large setup violation  
+There is a large setup violation of -1.149 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_60hz_reg[0]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#33 Warning
+Large setup violation  
+There is a large setup violation of -1.149 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_60hz_reg[1]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#34 Warning
+Large setup violation  
+There is a large setup violation of -1.149 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_60hz_reg[2]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#35 Warning
+Large setup violation  
+There is a large setup violation of -1.149 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_60hz_reg[3]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#36 Warning
+Large setup violation  
+There is a large setup violation of -1.149 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_60hz_reg[4]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#37 Warning
+Large setup violation  
+There is a large setup violation of -1.149 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_60hz_reg[5]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#38 Warning
+Large setup violation  
+There is a large setup violation of -1.149 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_60hz_reg[7]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#39 Warning
+Large setup violation  
+There is a large setup violation of -1.228 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_60hz_reg[13]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#40 Warning
+Large setup violation  
+There is a large setup violation of -1.228 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_60hz_reg[14]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#41 Warning
+Large setup violation  
+There is a large setup violation of -1.228 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_60hz_reg[15]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#42 Warning
+Large setup violation  
+There is a large setup violation of -1.228 ns between mb_block/rst_clk_wiz_1_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_60hz_reg[16]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#43 Warning
+Large setup violation  
+There is a large setup violation of -2.225 ns between mb_block/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg[65][19]/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[17]/CE (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#44 Warning
+Large setup violation  
+There is a large setup violation of -2.225 ns between mb_block/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg[65][19]/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[18]/CE (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#45 Warning
+Large setup violation  
+There is a large setup violation of -2.225 ns between mb_block/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg[65][19]/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[19]/CE (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#46 Warning
+Large setup violation  
+There is a large setup violation of -2.225 ns between mb_block/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg[65][19]/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[1]/CE (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#47 Warning
+Large setup violation  
+There is a large setup violation of -2.225 ns between mb_block/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg[65][19]/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[20]/CE (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#48 Warning
+Large setup violation  
+There is a large setup violation of -2.255 ns between mb_block/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg[65][19]/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[0]/CE (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#49 Warning
+Large setup violation  
+There is a large setup violation of -2.255 ns between mb_block/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg[65][19]/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[3]/CE (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#50 Warning
+Large setup violation  
+There is a large setup violation of -2.383 ns between mb_block/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg[65][19]/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[10]/CE (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#51 Warning
+Large setup violation  
+There is a large setup violation of -2.383 ns between mb_block/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg[65][19]/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[12]/CE (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#52 Warning
+Large setup violation  
+There is a large setup violation of -2.383 ns between mb_block/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg[65][19]/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[2]/CE (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#53 Warning
+Large setup violation  
+There is a large setup violation of -2.383 ns between mb_block/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg[65][19]/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[4]/CE (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#54 Warning
+Large setup violation  
+There is a large setup violation of -2.383 ns between mb_block/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg[65][19]/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[5]/CE (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#55 Warning
+Large setup violation  
+There is a large setup violation of -2.383 ns between mb_block/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg[65][19]/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[6]/CE (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#56 Warning
+Large setup violation  
+There is a large setup violation of -2.383 ns between mb_block/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg[65][19]/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[7]/CE (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#57 Warning
+Large setup violation  
+There is a large setup violation of -2.383 ns between mb_block/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg[65][19]/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[8]/CE (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#58 Warning
+Large setup violation  
+There is a large setup violation of -2.538 ns between mb_block/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg[65][19]/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[11]/CE (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#59 Warning
+Large setup violation  
+There is a large setup violation of -2.538 ns between mb_block/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg[65][19]/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[13]/CE (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#60 Warning
+Large setup violation  
+There is a large setup violation of -2.538 ns between mb_block/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg[65][19]/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[14]/CE (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#61 Warning
+Large setup violation  
+There is a large setup violation of -2.538 ns between mb_block/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg[65][19]/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[15]/CE (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#62 Warning
+Large setup violation  
+There is a large setup violation of -2.538 ns between mb_block/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg[65][19]/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[16]/CE (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#63 Warning
+Large setup violation  
+There is a large setup violation of -2.538 ns between mb_block/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg[65][19]/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/count_1hz_reg[9]/CE (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#64 Warning
+Large setup violation  
+There is a large setup violation of -3.115 ns between mb_block/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg[65][19]/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/seconds_reg[0]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#65 Warning
+Large setup violation  
+There is a large setup violation of -3.115 ns between mb_block/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg[65][19]/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/seconds_reg[10]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#66 Warning
+Large setup violation  
+There is a large setup violation of -3.115 ns between mb_block/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg[65][19]/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/seconds_reg[11]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#67 Warning
+Large setup violation  
+There is a large setup violation of -3.115 ns between mb_block/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg[65][19]/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/seconds_reg[1]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#68 Warning
+Large setup violation  
+There is a large setup violation of -3.115 ns between mb_block/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg[65][19]/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/seconds_reg[2]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#69 Warning
+Large setup violation  
+There is a large setup violation of -3.115 ns between mb_block/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg[65][19]/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/seconds_reg[3]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#70 Warning
+Large setup violation  
+There is a large setup violation of -3.115 ns between mb_block/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg[65][19]/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/seconds_reg[8]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#71 Warning
+Large setup violation  
+There is a large setup violation of -3.115 ns between mb_block/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg[65][19]/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/seconds_reg[9]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#72 Warning
+Large setup violation  
+There is a large setup violation of -3.152 ns between mb_block/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg[65][19]/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/seconds_reg[4]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#73 Warning
+Large setup violation  
+There is a large setup violation of -3.152 ns between mb_block/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg[65][19]/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/seconds_reg[5]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#74 Warning
+Large setup violation  
+There is a large setup violation of -3.152 ns between mb_block/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg[65][19]/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/seconds_reg[6]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#75 Warning
+Large setup violation  
+There is a large setup violation of -3.152 ns between mb_block/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg[65][19]/C (clocked by clk_out1_mb_usb_clk_wiz_1_0_1) and mb_block/hdmi_text_controller_0/inst/timeA/seconds_reg[7]/R (clocked by clk_out2_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on gpio_usb_int_tri_i[0] relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on reset_rtl_0 relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An input delay is missing on uart_rtl_0_rxd relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An input delay is missing on usb_spi_miso relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An output delay is missing on gpio_usb_rst_tri_o relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An output delay is missing on uart_rtl_0_txd relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An output delay is missing on usb_spi_mosi relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An output delay is missing on usb_spi_sclk relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#9 Warning
+Missing input or output delay  
+An output delay is missing on usb_spi_ss relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/addr_reg[0] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/addr_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/addr_reg[1] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/addr_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/addr_reg[2] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/addr_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/addr_reg[3] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/addr_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#5 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/addr_reg[4] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/addr_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#6 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/min1/index_reg[0] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/min1/index_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#7 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/min1/index_reg[1] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/min1/index_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#8 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/min1/index_reg[2] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/min1/index_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#9 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/min1/index_reg[3] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/min1/index_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#10 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/min10/index_reg[0] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/min10/index_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#11 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/min10/index_reg[1] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/min10/index_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#12 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/min10/index_reg[2] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/min10/index_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#13 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/min10/index_reg[3] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/min10/index_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#14 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_press_reg[0] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_press_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#15 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_press_reg[10] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_press_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#16 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_press_reg[11] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_press_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#17 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_press_reg[12] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_press_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#18 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_press_reg[1] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_press_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#19 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_press_reg[2] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_press_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#20 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_press_reg[3] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_press_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#21 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_press_reg[4] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_press_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#22 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_press_reg[5] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_press_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#23 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_press_reg[6] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_press_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#24 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_press_reg[7] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_press_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#25 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_press_reg[8] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_press_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#26 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_press_reg[9] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_press_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#27 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[0] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#28 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[10] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#29 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[10]_rep cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[10]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#30 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[10]_rep__0 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[10]_rep__0/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#31 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[10]_rep__1 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[10]_rep__1/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#32 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[10]_rep__2 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[10]_rep__2/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#33 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[11] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#34 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[12] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#35 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[12]_rep cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[12]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#36 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[12]_rep__0 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[12]_rep__0/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#37 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[12]_rep__1 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[12]_rep__1/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#38 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[12]_rep__2 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[12]_rep__2/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#39 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[12]_rep__3 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[12]_rep__3/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#40 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[12]_rep__4 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[12]_rep__4/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#41 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[12]_rep__5 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[12]_rep__5/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#42 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[12]_rep__6 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[12]_rep__6/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#43 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[13] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#44 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[13]_rep cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[13]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#45 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[13]_rep__0 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[13]_rep__0/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#46 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[13]_rep__1 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[13]_rep__1/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#47 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[13]_rep__2 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[13]_rep__2/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#48 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[13]_rep__3 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[13]_rep__3/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#49 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[13]_rep__4 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[13]_rep__4/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#50 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[14] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#51 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[14]_rep cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[14]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#52 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[14]_rep__0 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[14]_rep__0/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#53 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[14]_rep__1 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[14]_rep__1/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#54 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[14]_rep__2 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[14]_rep__2/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#55 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[14]_rep__3 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[14]_rep__3/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#56 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[15] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#57 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[15]_rep cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[15]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#58 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[15]_rep__0 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[15]_rep__0/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#59 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[15]_rep__1 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[15]_rep__1/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#60 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[15]_rep__2 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[15]_rep__2/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#61 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[15]_rep__3 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[15]_rep__3/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#62 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[1] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#63 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[1]_rep cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[1]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#64 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[1]_rep__0 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[1]_rep__0/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#65 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[1]_rep__1 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[1]_rep__1/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#66 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[1]_rep__2 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[1]_rep__2/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#67 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[1]_rep__3 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[1]_rep__3/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#68 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[1]_rep__4 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[1]_rep__4/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#69 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[1]_rep__5 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[1]_rep__5/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#70 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[1]_rep__6 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[1]_rep__6/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#71 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[2] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#72 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[2]_rep cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[2]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#73 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[2]_rep__0 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[2]_rep__0/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#74 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[2]_rep__1 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[2]_rep__1/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#75 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[2]_rep__2 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[2]_rep__2/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#76 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[2]_rep__3 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[2]_rep__3/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#77 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[2]_rep__4 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[2]_rep__4/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#78 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[2]_rep__5 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[2]_rep__5/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#79 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[2]_rep__6 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[2]_rep__6/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#80 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[2]_rep__7 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[2]_rep__7/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#81 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[2]_rep__8 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[2]_rep__8/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#82 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[3] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#83 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[3]_rep cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[3]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#84 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[3]_rep__0 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[3]_rep__0/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#85 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[3]_rep__1 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[3]_rep__1/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#86 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[3]_rep__2 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[3]_rep__2/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#87 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[3]_rep__3 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[3]_rep__3/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#88 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[3]_rep__4 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[3]_rep__4/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#89 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[3]_rep__5 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[3]_rep__5/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#90 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[3]_rep__6 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[3]_rep__6/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#91 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[3]_rep__7 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[3]_rep__7/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#92 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[3]_rep__8 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[3]_rep__8/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#93 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[3]_rep__9 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[3]_rep__9/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#94 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[4] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#95 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[5] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#96 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[6] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#97 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[7] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#98 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[7]_rep cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[7]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#99 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[7]_rep__0 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[7]_rep__0/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#100 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[7]_rep__1 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[7]_rep__1/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#101 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[7]_rep__2 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[7]_rep__2/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#102 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[7]_rep__3 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[7]_rep__3/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#103 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[7]_rep__4 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[7]_rep__4/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#104 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[7]_rep__5 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[7]_rep__5/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#105 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[7]_rep__6 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[7]_rep__6/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#106 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[7]_rep__7 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[7]_rep__7/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#107 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[8] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#108 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[9] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#109 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[0] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#110 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[0]_rep cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[0]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#111 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[0]_rep__0 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[0]_rep__0/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#112 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[0]_rep__1 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[0]_rep__1/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#113 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[0]_rep__2 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[0]_rep__2/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#114 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[0]_rep__3 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[0]_rep__3/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#115 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[0]_rep__4 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[0]_rep__4/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#116 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[0]_rep__5 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[0]_rep__5/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#117 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[0]_rep__6 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[0]_rep__6/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#118 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[10] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#119 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[10]_rep cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[10]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#120 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[10]_rep__0 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[10]_rep__0/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#121 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[10]_rep__1 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[10]_rep__1/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#122 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[10]_rep__2 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[10]_rep__2/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#123 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[10]_rep__3 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[10]_rep__3/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#124 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[10]_rep__4 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[10]_rep__4/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#125 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[10]_rep__5 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[10]_rep__5/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#126 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[10]_rep__6 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[10]_rep__6/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#127 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[11] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#128 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[11]_rep cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[11]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#129 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[11]_rep__0 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[11]_rep__0/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#130 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[11]_rep__1 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[11]_rep__1/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#131 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[11]_rep__2 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[11]_rep__2/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#132 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[11]_rep__3 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[11]_rep__3/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#133 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[11]_rep__4 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[11]_rep__4/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#134 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[11]_rep__5 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[11]_rep__5/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#135 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[11]_rep__6 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[11]_rep__6/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#136 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[11]_rep__7 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[11]_rep__7/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#137 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[11]_rep__8 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[11]_rep__8/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#138 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[12] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#139 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[12]_rep cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[12]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#140 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[12]_rep__0 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[12]_rep__0/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#141 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[12]_rep__1 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[12]_rep__1/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#142 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[12]_rep__2 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[12]_rep__2/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#143 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[12]_rep__3 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[12]_rep__3/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#144 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[12]_rep__4 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[12]_rep__4/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#145 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[12]_rep__5 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[12]_rep__5/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#146 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[13] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#147 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[13]_rep cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[13]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#148 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[13]_rep__0 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[13]_rep__0/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#149 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[13]_rep__1 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[13]_rep__1/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#150 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[13]_rep__2 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[13]_rep__2/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#151 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[13]_rep__3 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[13]_rep__3/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#152 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[13]_rep__4 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[13]_rep__4/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#153 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[13]_rep__5 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[13]_rep__5/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#154 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[1] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#155 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[1]_rep cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[1]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#156 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[1]_rep__0 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[1]_rep__0/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#157 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[1]_rep__1 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[1]_rep__1/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#158 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[1]_rep__2 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[1]_rep__2/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#159 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[1]_rep__3 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[1]_rep__3/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#160 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[1]_rep__4 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[1]_rep__4/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#161 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[1]_rep__5 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[1]_rep__5/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#162 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[1]_rep__6 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[1]_rep__6/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#163 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[2] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#164 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[2]_rep cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[2]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#165 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[2]_rep__0 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[2]_rep__0/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#166 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[2]_rep__1 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[2]_rep__1/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#167 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[2]_rep__2 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[2]_rep__2/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#168 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[2]_rep__3 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[2]_rep__3/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#169 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[2]_rep__4 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[2]_rep__4/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#170 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[2]_rep__5 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[2]_rep__5/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#171 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[3] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#172 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[4] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#173 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[5] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#174 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[6] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#175 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[6]_rep cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[6]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#176 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[6]_rep__0 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[6]_rep__0/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#177 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[7] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#178 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[8] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#179 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[9] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#180 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[9]_rep cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[9]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#181 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[9]_rep__0 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[9]_rep__0/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#182 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[9]_rep__1 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[9]_rep__1/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#183 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[9]_rep__2 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[9]_rep__2/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#184 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[9]_rep__3 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[9]_rep__3/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#185 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[9]_rep__4 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/read_addr_wins_reg[9]_rep__4/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#186 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/sec10/index_reg[0] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/sec10/index_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#187 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/sec10/index_reg[1] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/sec10/index_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#188 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/sec10/index_reg[2] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/sec10/index_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#189 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/sec10/index_reg[3] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/sec10/index_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#190 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/text_addr_reg[0] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/text_addr_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#191 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/text_addr_reg[10] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/text_addr_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#192 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/text_addr_reg[1] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/text_addr_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#193 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/text_addr_reg[2] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/text_addr_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#194 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/text_addr_reg[3] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/text_addr_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#195 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/text_addr_reg[4] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/text_addr_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#196 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/text_addr_reg[5] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/text_addr_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#197 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/text_addr_reg[6] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/text_addr_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#198 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/text_addr_reg[7] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/text_addr_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#199 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/text_addr_reg[8] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/text_addr_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#200 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/text_addr_reg[9] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/text_addr_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#201 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/text_blk_reg[0] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/text_blk_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#202 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/text_blk_reg[1] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/text_blk_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#203 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/text_blk_reg[2] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/text_blk_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#204 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/text_blk_reg[3] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/text_blk_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#205 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/text_blk_reg[4] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/text_blk_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#206 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/text_blk_reg[5] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/text_blk_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#207 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_instance/text_blk_reg[6] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_instance/text_blk_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#208 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[0] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#209 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[10] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#210 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[10]_rep cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[10]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#211 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[11] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#212 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[12] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#213 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[13] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#214 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[14] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#215 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[15] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#216 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[16] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[16]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#217 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[17] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[17]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#218 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[1] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#219 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[2] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#220 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[3] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#221 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[4] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#222 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[5] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#223 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#224 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#225 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__0 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__0/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#226 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__1 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__1/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#227 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__10 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__10/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#228 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__11 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__11/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#229 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__12 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__12/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#230 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__13 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__13/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#231 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__14 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__14/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#232 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__15 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__15/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#233 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__16 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__16/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#234 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__17 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__17/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#235 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__18 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__18/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#236 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__19 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__19/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#237 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__2 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__2/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#238 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__20 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__20/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#239 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__21 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__21/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#240 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__22 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__22/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#241 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__23 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__23/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#242 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__24 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__24/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#243 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__25 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__25/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#244 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__26 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__26/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#245 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__27 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__27/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#246 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__3 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__3/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#247 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__4 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__4/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#248 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__5 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__5/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#249 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__6 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__6/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#250 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__7 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__7/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#251 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__8 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__8/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#252 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__9 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[6]_rep__9/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#253 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[7] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#254 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[7]_rep cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[7]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#255 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[7]_rep__0 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[7]_rep__0/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#256 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[7]_rep__1 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[7]_rep__1/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#257 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[7]_rep__10 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[7]_rep__10/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#258 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[7]_rep__11 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[7]_rep__11/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#259 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[7]_rep__12 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[7]_rep__12/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#260 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[7]_rep__13 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[7]_rep__13/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#261 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[7]_rep__14 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[7]_rep__14/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#262 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[7]_rep__15 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[7]_rep__15/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#263 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[7]_rep__2 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[7]_rep__2/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#264 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[7]_rep__3 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[7]_rep__3/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#265 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[7]_rep__4 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[7]_rep__4/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#266 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[7]_rep__5 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[7]_rep__5/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#267 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[7]_rep__6 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[7]_rep__6/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#268 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[7]_rep__7 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[7]_rep__7/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#269 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[7]_rep__8 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[7]_rep__8/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#270 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[7]_rep__9 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[7]_rep__9/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#271 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[8] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#272 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[8]_rep cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[8]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#273 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[8]_rep__0 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[8]_rep__0/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#274 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[8]_rep__1 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[8]_rep__1/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#275 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[8]_rep__2 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[8]_rep__2/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#276 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[8]_rep__3 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[8]_rep__3/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#277 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[8]_rep__4 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[8]_rep__4/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#278 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[8]_rep__5 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[8]_rep__5/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#279 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[8]_rep__6 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[8]_rep__6/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#280 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[8]_rep__7 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[8]_rep__7/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#281 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[8]_rep__8 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[8]_rep__8/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#282 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[9] cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#283 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[9]_rep cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[9]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#284 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[9]_rep__0 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[9]_rep__0/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#285 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[9]_rep__1 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[9]_rep__1/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#286 Warning
+Non-clocked latch  
+The latch mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[9]_rep__2 cannot be properly analyzed as its control pin mb_block/hdmi_text_controller_0/inst/frame/color_menu/read_addr_reg[9]_rep__2/G is not reached by a timing clock
+Related violations: <none>
+
+XDCC-7#1 Warning
+Scoped Clock constraint overwritten on the same source  
+A new clock constraint create_clock overrides a previous scoped clock constraint defined on the same source. It is not recommended to override a scoped (typically an IP) clock constraint and could result in unexpected behaviors.
+New: create_clock -period 10.000 -name clk_100 -waveform {0.000 5.000} [get_ports Clk] (Source: G:/VivadoProject/gomoku/gomoku.srcs/constrs_1/imports/pin_assignment/mb_usb_hdmi_top.xdc (Line: 1))
+Previous: create_clock -period 10.000 [get_ports Clk] (Source: g:/VivadoProject/gomoku/gomoku.gen/sources_1/bd/mb_usb/ip/mb_usb_clk_wiz_1_0/mb_usb_clk_wiz_1_0.xdc (Line: 56))
+Related violations: <none>
+
+LATCH-1#1 Advisory
+Existing latches in the design  
+There are 286 latches found in the design. Inferred latches are often the result of HDL coding mistakes, such as incomplete if or case statements.
+Related violations: <none>
+
+
