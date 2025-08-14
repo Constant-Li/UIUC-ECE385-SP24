@@ -33,7 +33,7 @@ If you prefer not to rebuild the entire project in Vivado, you can use the pre-b
 ---
 
 ## 🎥 Demo Video
-https://github.com/user-attachments/assets/3c4285aa-943f-45f7-9e85-6db66791a9f4
+https://github.com/user-attachments/assets/90d7688b-ba11-42e7-aa5d-c06843fe166d
 
 ---
 
